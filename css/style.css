@@ -144,14 +144,16 @@ nav ul li a:hover {
   position: absolute;
   left: -16%;
   z-index: -1;
-  bottom: 0;
+  bottom: 0%;
   overflow: hidden;
 }
 .shoe img {
   height: 280px;
+  height: 100%;
 }
 .dino img {
   height: 300px;
+  height: 100%;
 }
 
 .dino {
