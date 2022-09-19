@@ -146,6 +146,7 @@ nav ul li a:hover {
   z-index: -1;
   bottom: 0%;
   overflow: hidden;
+  pointer-events: none;
 }
 .shoe img {
   height: 280px;
@@ -162,7 +163,7 @@ nav ul li a:hover {
   width: 290px;
   right: 0%;
   bottom: 0%;
-
+  pointer-events: none;
   overflow: hidden;
 }
 
