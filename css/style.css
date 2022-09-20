@@ -252,3 +252,37 @@ nav ul li a:hover {
 .box3 p {
   font-size: 20px;
 }
+
+.container4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+}
+.graggle {
+  margin-right: 150px;
+}
+.graggle img {
+  height: 400px;
+}
+
+.box4 {
+  width: 30%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.box4 p {
+  font-size: 20px;
+}
+.box4 h2 {
+  font-size: 43px;
+  padding-right: 75px;
+  padding-bottom: 40px;
+}
