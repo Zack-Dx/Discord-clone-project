@@ -12,7 +12,7 @@ body {
 }
 
 /* Header Section */
-.firstbox {
+.navbox {
   height: 70px;
   display: flex;
   justify-content: center;
@@ -190,6 +190,8 @@ nav ul li a:hover {
 }
 .mac:hover {
   color: #3b4aee;
+  box-shadow: 0px 8px 5px 0px rgba(34, 34, 34, 0.71);
+  transition: 0.2s;
 }
 .browser {
   background: black;
@@ -197,4 +199,56 @@ nav ul li a:hover {
 }
 .browser:hover {
   background: rgb(52, 51, 51);
+  box-shadow: 0px 8px 5px 0px rgba(18, 17, 17, 0.71);
+  transition: 0.2s;
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 40px;
+}
+#studygroup img {
+  height: 450px;
+  padding: 20px;
+}
+.box2 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  padding: 40px;
+}
+.box2 h2 {
+  font-size: 48px;
+  padding-right: 90px;
+  padding-bottom: 40px;
+}
+.box2 p {
+  font-size: 20px;
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 70px;
+}
+
+.box3 {
+  width: 35%;
+  text-align: left;
+}
+.box3 h2 {
+  font-size: 48px;
+  padding-right: 75px;
+  padding-bottom: 40px;
+}
+
+.box3 p {
+  font-size: 20px;
 }
