@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
@@ -17,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .box1 {
   display: flex;
   justify-content: center;
@@ -24,6 +27,7 @@ body {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   gap: 16px;
 }
+
 .box1 img {
   height: 36px;
 }
@@ -32,9 +36,11 @@ body {
   font-weight: 500;
   font-size: 15px;
 }
+
 .box1 span {
   font-weight: 400;
 }
+
 .read {
   border-radius: 40px;
   font-size: 0.8rem;
@@ -46,6 +52,7 @@ body {
   outline: none;
   cursor: pointer;
 }
+
 .read:hover {
   box-shadow: 0px 4px 5px 0px rgba(176, 174, 174, 0.71);
   transition: 0.2s;
@@ -60,6 +67,7 @@ body {
   width: 100%;
   z-index: 1;
 }
+
 .container:before {
   content: "";
   height: 590px;
@@ -69,18 +77,22 @@ body {
   opacity: 0.6;
   position: absolute;
 }
+
 nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
 }
+
 nav ul {
   display: flex;
 }
+
 nav ul li {
   list-style: none;
 }
+
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -89,17 +101,21 @@ nav ul li a {
   padding: 10px;
   margin: 10px;
 }
+
 nav ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 10%;
 }
+
 .logo {
   margin-top: 6px;
   cursor: pointer;
 }
+
 .logo img {
   height: 37px;
 }
+
 .discord {
   border-radius: 40px;
   padding: 12px 16px;
@@ -116,6 +132,7 @@ nav ul li a:hover {
   transition-timing-function: ease-in-out;
   color: #404eed;
 }
+
 .section1 {
   display: flex;
   flex-direction: column;
@@ -125,6 +142,7 @@ nav ul li a:hover {
   height: 350px;
   color: white;
 }
+
 .section1 h1 {
   margin-top: 50px;
   text-align: center;
@@ -132,6 +150,7 @@ nav ul li a:hover {
   font-size: 3.5rem;
   font-weight: 900;
 }
+
 .section1 p {
   text-align: center;
   margin-top: 40px;
@@ -148,10 +167,12 @@ nav ul li a:hover {
   overflow: hidden;
   pointer-events: none;
 }
+
 .shoe img {
   height: 280px;
   height: 100%;
 }
+
 .dino img {
   height: 300px;
   height: 100%;
@@ -174,10 +195,11 @@ nav ul li a:hover {
   margin: 24px;
   z-index: 1;
 }
+
 .download-button,
 .browser {
   margin: 24px;
-  padding: 16px 32px;
+  padding: 16px 25px;
   border-radius: 28px;
   font-size: 18px;
   outline: none;
@@ -185,18 +207,27 @@ nav ul li a:hover {
   cursor: pointer;
   font-weight: 400;
 }
+
+/* Added flex to download-button for fixing the alignment issue */
 .download-button {
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.3em;
 }
+
 .download-button:hover {
   color: #3b4aee;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
   transition: 0.2s;
 }
+
 .browser {
   background: black;
   color: white;
 }
+
 .browser:hover {
   background: rgb(52, 51, 51);
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
@@ -210,10 +241,12 @@ nav ul li a:hover {
   align-items: center;
   padding: 100px 40px;
 }
+
 #studygroup img {
   height: 450px;
   padding: 20px;
 }
+
 .box2 {
   text-align: left;
   display: flex;
@@ -221,11 +254,13 @@ nav ul li a:hover {
   width: 38%;
   padding: 40px;
 }
+
 .box2 h2 {
   font-size: 48px;
   padding-right: 90px;
   padding-bottom: 40px;
 }
+
 .box2 p {
   font-size: 20px;
 }
@@ -243,6 +278,7 @@ nav ul li a:hover {
   width: 35%;
   text-align: left;
 }
+
 .box3 h2 {
   font-size: 48px;
   padding-right: 75px;
@@ -261,9 +297,11 @@ nav ul li a:hover {
 
   padding: 50px;
 }
+
 .graggle {
   margin-right: 150px;
 }
+
 .graggle img {
   height: 400px;
 }
@@ -281,6 +319,7 @@ nav ul li a:hover {
 .box4 p {
   font-size: 20px;
 }
+
 .box4 h2 {
   font-size: 43px;
   padding-right: 75px;
@@ -295,6 +334,7 @@ nav ul li a:hover {
   text-align: center;
   padding: 4%;
 }
+
 .box5 h1 {
   font-size: 2.5rem;
   font-weight: 800;
@@ -302,25 +342,30 @@ nav ul li a:hover {
   letter-spacing: 3px;
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 .box5 p {
   margin-top: 2%;
   line-height: 25px;
   font-size: 20px;
 }
+
 .box5 img {
   margin-top: -100px;
   width: 1000px;
   height: 890px;
 }
+
 .box6 {
   text-align: center;
   padding-bottom: 3%;
   background-color: rgb(242, 240, 240);
 }
+
 .box6 h1 {
   font-weight: 800;
   margin-top: -120px;
 }
+
 .box6 button {
   border-radius: 40px;
   font-size: 1rem;
@@ -387,9 +432,11 @@ footer .footer-nav .column a {
   text-decoration: none;
   padding-bottom: 5px;
 }
+
 footer .footer-nav .column a:hover {
   text-decoration: underline;
 }
+
 footer .footer-nav h5 {
   color: #5865f2;
   font-size: 16px;
@@ -405,7 +452,7 @@ footer .footer-nav h5 {
   max-width: 1260px;
 }
 
-.footer-bar > img {
+.footer-bar>img {
   width: 124px;
   height: 40px;
 }
