@@ -88,9 +88,12 @@ nav ul li a {
   font-weight: 600;
   padding: 10px;
   margin: 10px;
+  transition: 0.4s ease-in-out;
+  border-radius: 99px;
 }
 nav ul li a:hover {
-  text-decoration: underline;
+  background-color: white;
+  color: #404eed;
   text-decoration-thickness: 10%;
 }
 .logo {
