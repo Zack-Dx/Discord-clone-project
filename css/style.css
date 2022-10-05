@@ -174,7 +174,7 @@ nav ul li a:hover {
   margin: 24px;
   z-index: 1;
 }
-.mac,
+.download-button,
 .browser {
   margin: 24px;
   padding: 16px 32px;
@@ -185,10 +185,10 @@ nav ul li a:hover {
   cursor: pointer;
   font-weight: 400;
 }
-.mac {
+.download-button {
   background: white;
 }
-.mac:hover {
+.download-button:hover {
   color: #3b4aee;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
   transition: 0.2s;
@@ -291,38 +291,37 @@ nav ul li a:hover {
   background-color: rgb(242, 240, 240);
 }
 
-
-.box5{
+.box5 {
   text-align: center;
   padding: 4%;
 }
-.box5 h1{
+.box5 h1 {
   font-size: 2.5rem;
   font-weight: 800;
   padding-top: 3%;
   letter-spacing: 3px;
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.box5 p{
+.box5 p {
   margin-top: 2%;
   line-height: 25px;
   font-size: 20px;
 }
-.box5 img{
+.box5 img {
   margin-top: -100px;
   width: 1000px;
   height: 890px;
 }
-.box6{
+.box6 {
   text-align: center;
   padding-bottom: 3%;
   background-color: rgb(242, 240, 240);
 }
-.box6 h1{
+.box6 h1 {
   font-weight: 800;
   margin-top: -120px;
 }
-.box6 button{
+.box6 button {
   border-radius: 40px;
   font-size: 1rem;
   padding: 10px 14px;
@@ -337,99 +336,94 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-
 /*<------------------------------------------------------->*/
 /* footer */
 footer {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    color: white;
-    background-color: #23272a;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+  background-color: #23272a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .footer-nav {
-    display: grid;
-    grid-template-columns: 1.5fr 0.5fr 1fr 1fr 1fr 1fr;
-    gap: 0 20px;
-    width: 100%;
-    padding-bottom: 3.5rem;
-    border-bottom: 1px solid #7289da;
-    max-width: 1260px;
-    width: 80%;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr 1fr 1fr 1fr 1fr;
+  gap: 0 20px;
+  width: 100%;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid #7289da;
+  max-width: 1260px;
+  width: 80%;
 }
 
 footer .footer-nav .socials h4 {
   margin-bottom: 5px;
-    font-size: 32px;
-    color: #5865f2;
-    font-weight: 800 !important;
-    line-height: 95%;
-    text-transform: uppercase;
-    text-rendering: geometricPrecision;
+  font-size: 32px;
+  color: #5865f2;
+  font-weight: 800 !important;
+  line-height: 95%;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
 }
 
 footer .footer-nav .socials img {
-    width: 40px;
-    /* height: 16px; */
-    padding-right: 1rem;
-    padding-top: 1rem;
+  width: 40px;
+  /* height: 16px; */
+  padding-right: 1rem;
+  padding-top: 1rem;
 }
 
 footer .footer-nav .column a {
-    margin-top: 8px;
-    font-size: 14px;
-    /* color: rgba(255, 255, 255, 0.74); */
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    padding-bottom: 5px;
+  margin-top: 8px;
+  font-size: 14px;
+  /* color: rgba(255, 255, 255, 0.74); */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding-bottom: 5px;
 }
-footer .footer-nav .column a:hover{
+footer .footer-nav .column a:hover {
   text-decoration: underline;
 }
 footer .footer-nav h5 {
-    color: #5865f2;
-    font-size: 16px;
-    padding-bottom: 5px;
+  color: #5865f2;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
 
 .footer-bar {
-    padding: 1.25rem 2.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    max-width: 1260px;
+  padding: 1.25rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1260px;
 }
 
-.footer-bar>img {
-    width: 124px;
-    height: 40px;
+.footer-bar > img {
+  width: 124px;
+  height: 40px;
 }
 
 .footer-bar a {
-    text-decoration: none;
-    color: #fff;
-    border-radius: 40px;
-    font-size: 14px;
-    padding: 10px 16px;
-    background-color: #5865f2;
-    font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 10px 16px;
+  background-color: #5865f2;
+  font-weight: 500;
 }
 
 #country {
-    background-color: #23272a;
-    color: #fff;
-    border: none;
-}
-
-.cursor-pointer {
-  cursor: pointer;
+  background-color: #23272a;
+  color: #fff;
+  border: none;
 }
 
 #btnScrollToTop {
@@ -441,12 +435,12 @@ footer .footer-nav h5 {
   border-radius: 50%;
   background: #3b4aee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   outline: none;
   cursor: pointer;
 }
 
-#btnScrollToTop:active{
+#btnScrollToTop:active {
   background: rgb(114, 93, 183);
 }
