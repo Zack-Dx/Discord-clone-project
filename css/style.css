@@ -13,6 +13,57 @@ body {
   width: 100%;
 }
 
+body.dark-theme{
+  background-color: #23272a;
+}
+body.dark-theme h2 {
+  color: rgb(47, 150, 13);
+}
+body.dark-theme p{
+  color:rgb(222, 143, 238);
+}
+
+.toggle input[type=checkbox] {
+  display: none;
+}
+
+.toggle label {
+  background-color: #777;
+  border: 2px solid #555;
+  border-radius: 90px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all ease-in-out 0.3s;
+  width: 75px;
+  height: 30px;
+}
+
+.toggle label::after {
+  background-color: #555;
+  border-radius: 50%;
+  content: ' ';
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  left: 1px;
+  
+  
+  transition: all ease-in-out 0.3s;
+  width: 30px;
+  height: 30px;
+}
+
+.toggle input[type=checkbox]:checked ~ label {
+  background-color: #00a0fc;
+  border-color: #006dc9;
+}
+
+.toggle input[type=checkbox]:checked ~ label::after {
+  background-color: #0054B0;
+  transform: translateX(50px);
+}
+
 /* Header Section */
 .navbox {
   height: 70px;
