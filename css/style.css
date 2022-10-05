@@ -286,6 +286,52 @@ nav ul li a:hover {
   padding-right: 75px;
   padding-bottom: 40px;
 }
+.box5{
+  text-align: center;
+  padding: 4%;
+  background-color: rgb(242, 240, 240);
+}
+.box5 h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-top: 3%;
+  letter-spacing: 3px;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.box5 p{
+  margin-top: 2%;
+  line-height: 25px;
+  font-size: 20px;
+}
+.box5 img{
+  margin-top: -100px;
+  width: 1000px;
+  height: 890px;
+}
+.box6{
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: rgb(242, 240, 240);
+}
+.box6 h1{
+  font-weight: 800;
+  margin-top: -120px;
+}
+.box6 button{
+  border-radius: 40px;
+  font-size: 1rem;
+  padding: 10px 14px;
+  margin-top: 3%;
+  width: 300px;
+  height: 60px;
+
+  background: #3b4aee;
+  color: white;
+  border: 1px solid #404eed;
+  outline: none;
+  cursor: pointer;
+}
+
 
 /*<------------------------------------------------------->*/
 /* footer */
