@@ -5,9 +5,9 @@ The goal is to create a clone of Discord. It gives an opportunity for beginners 
 
 There are various issues listed. You can also contribute as per your skills. 
 
-The homepage is referred to as index.html (very obvious). .
+The homepage is referred to as index.html (very obvious). 
 
-You can add your contributions with an appropriate name and remember to comment to make your code easier to read. .
+You can add your contributions with an appropriate name and remember to comment to make your code easier to read. 
 
 Avoid duplicating someone else's work. 
 
