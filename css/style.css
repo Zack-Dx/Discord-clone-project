@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url('http://fonts.cdnfonts.com/css/whitney-4');
 * {
   margin: 0;
   padding: 0;
@@ -445,4 +446,17 @@ footer .footer-nav h5 {
 
 #btnScrollToTop:active{
   background: rgb(114, 93, 183);
+}
+
+.download-btn{
+  background-color: #5865f2;
+  border-radius: 28px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
+}
+
+.download-btn:hover{
+  background-color: #7983f5;
+  box-shadow: rgb(0,0,0,0.2) 0px 8px 15px 0px;
 }
