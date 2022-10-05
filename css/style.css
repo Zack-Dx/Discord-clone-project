@@ -427,3 +427,7 @@ footer .footer-nav h5 {
     color: #fff;
     border: none;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
