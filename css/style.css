@@ -198,7 +198,7 @@ nav ul li a:hover {
 
 .download-button,
 .browser {
-  margin: 24px;
+  margin: 18px;
   padding: 16px 25px;
   border-radius: 28px;
   font-size: 18px;
@@ -231,7 +231,6 @@ removed some styles from (box6 button) */
   align-items: center;
   justify-content: space-between;
   gap: 0.3em;
-  margin: 0 auto;
 }
 
 .browser {
