@@ -286,10 +286,15 @@ nav ul li a:hover {
   padding-right: 75px;
   padding-bottom: 40px;
 }
+
+.container5 {
+  background-color: rgb(242, 240, 240);
+}
+
+
 .box5{
   text-align: center;
   padding: 4%;
-  background-color: rgb(242, 240, 240);
 }
 .box5 h1{
   font-size: 2.5rem;
