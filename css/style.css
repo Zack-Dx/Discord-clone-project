@@ -223,6 +223,17 @@ nav ul li a:hover {
   transition: 0.2s;
 }
 
+/* Added the same styling as above and added a margin to center the div, 
+removed some styles from (box6 button) */
+.download-btn {
+  padding: 16px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.3em;
+  margin: 0 auto;
+}
+
 .browser {
   background: black;
   color: white;
@@ -369,11 +380,7 @@ nav ul li a:hover {
 .box6 button {
   border-radius: 40px;
   font-size: 1rem;
-  padding: 10px 14px;
   margin-top: 3%;
-  width: 300px;
-  height: 60px;
-
   background: #3b4aee;
   color: white;
   border: 1px solid #404eed;
