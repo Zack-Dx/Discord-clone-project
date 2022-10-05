@@ -428,6 +428,10 @@ footer .footer-nav h5 {
     border: none;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 #btnScrollToTop {
   position: fixed;
   right: 10px;
