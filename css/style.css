@@ -286,7 +286,6 @@ nav ul li a:hover {
   padding-right: 75px;
   padding-bottom: 40px;
 }
-
 .box5{
   text-align: center;
   padding: 4%;
@@ -331,4 +330,95 @@ nav ul li a:hover {
   border: 1px solid #404eed;
   outline: none;
   cursor: pointer;
+}
+
+
+/*<------------------------------------------------------->*/
+/* footer */
+footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: white;
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-nav {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr 1fr 1fr 1fr;
+    gap: 0 20px;
+    width: 100%;
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid #7289da;
+    max-width: 1260px;
+    width: 80%;
+}
+
+footer .footer-nav .socials h4 {
+  margin-bottom: 5px;
+    font-size: 32px;
+    color: #5865f2;
+    font-weight: 800 !important;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+}
+
+footer .footer-nav .socials img {
+    width: 40px;
+    /* height: 16px; */
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+footer .footer-nav .column a {
+    margin-top: 8px;
+    font-size: 14px;
+    /* color: rgba(255, 255, 255, 0.74); */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+footer .footer-nav .column a:hover{
+  text-decoration: underline;
+}
+footer .footer-nav h5 {
+    color: #5865f2;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.footer-bar {
+    padding: 1.25rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1260px;
+}
+
+.footer-bar>img {
+    width: 124px;
+    height: 40px;
+}
+
+.footer-bar a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    background-color: #5865f2;
+    font-weight: 500;
+}
+
+#country {
+    background-color: #23272a;
+    color: #fff;
+    border: none;
 }
