@@ -197,6 +197,10 @@ nav ul li a:hover {
   margin-top: 24px;
 }
 
+.buttons a{
+  text-decoration: none;
+}
+
 .download-button{
   padding: 16px 32px;
   border-radius: 28px;
@@ -400,6 +404,17 @@ nav ul li a:hover {
   border: 1px solid #404eed;
   outline: none;
   cursor: pointer;
+}
+
+.box6 a{
+  text-decoration: none;
+}
+
+.box6 .download-btn:hover{
+  background: #8189e2;
+  border: 1px solid #8189e2;
+  box-shadow: rgba(0, 0, 0, 0.253) 0px 10px 24px;
+  transition: 0.2s;
 }
 
 /*<------------------------------------------------------->*/
