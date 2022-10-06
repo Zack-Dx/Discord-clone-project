@@ -196,6 +196,10 @@ nav ul li a:hover {
   z-index: 1;
 }
 
+.buttons a{
+  text-decoration: none;
+}
+
 .download-button,
 .browser {
   margin: 24px;
@@ -386,6 +390,17 @@ removed some styles from (box6 button) */
   border: 1px solid #404eed;
   outline: none;
   cursor: pointer;
+}
+
+.box6 a{
+  text-decoration: none;
+}
+
+.box6 .download-btn:hover{
+  background: #8189e2;
+  border: 1px solid #8189e2;
+  box-shadow: rgba(0, 0, 0, 0.253) 0px 10px 24px;
+  transition: 0.2s;
 }
 
 /*<------------------------------------------------------->*/
