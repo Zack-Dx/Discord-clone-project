@@ -1,9 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
+@font-face {
+  font-family: "Ginto Nord";
+  src: url(../fonts/Ginto\ Nord.ttf);
+}
+
+@font-face {
+  font-family: "Whitney Regular";
+  src: url(../fonts/Whitney\ Regular.ttf);
+}
+
+@font-face {
+  font-family: "Whitney Medium";
+  src: url(../fonts/Whitney\ Medium.ttf);
+}
+
+@font-face {
+  font-family: "Whitney Bold";
+  src: url(../fonts/Whitney\ Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Whitney", Helvetica Neue, "Helvetica", Arial, sans-serif;
   box-sizing: border-box;
 }
 
@@ -13,38 +33,42 @@ body {
   width: 100%;
 }
 
-body {  
-  transition: 1.5s;  
-  }  
-  .night-toggle {  
-  width: 33px;  
-  height: 33px;  
-  right: 50px;  
-  top: 30px;  
-  position: absolute;  
-  }  
-  .night-toggle:hover{  
-   cursor: pointer;  
-  }  
-  .moon {  
-   background-color: transparent;  
-   box-shadow: -6px 1px 0 3px #f4fcfc;  
-   border-left:3px solid #3a4042;  
-   border-radius:50%;  
-   width: 20px;  
-   height: 20px;  
-   margin-left:8px;  
-   margin-top:0px;  
-   transition: 2s;  
-  }  
-  .sun {  
-   background-color: #fdd462;  
-   box-shadow: 2px 0px 0px 1px #D19C29;  
-   border-radius:50%;  
-   width: 26px;  
-   height: 26px;  
-   transition: 2s;  
-  }  
+body {
+  transition: 1.5s;
+}
+
+.night-toggle {
+  width: 33px;
+  height: 33px;
+  right: 50px;
+  top: 30px;
+  position: absolute;
+}
+
+.night-toggle:hover {
+  cursor: pointer;
+}
+
+.moon {
+  background-color: transparent;
+  box-shadow: -6px 1px 0 3px #f4fcfc;
+  border-left: 3px solid #3a4042;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: 0px;
+  transition: 2s;
+}
+
+.sun {
+  background-color: #fdd462;
+  box-shadow: 2px 0px 0px 1px #D19C29;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  transition: 2s;
+}
 
 /* Header Section */
 .navbox {
@@ -78,7 +102,6 @@ body {
   border-radius: 40px;
   font-size: 0.8rem;
   padding: 10px 14px;
-
   background: #3b4aee;
   color: white;
   border: 1px solid #404eed;
@@ -127,9 +150,11 @@ nav ul li {
 }
 
 nav ul li a {
+  letter-spacing: 0.5px;
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
+  font-family: "Whitney Medium";
   font-weight: 600;
   padding: 10px;
   margin: 10px;
@@ -170,7 +195,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   margin: auto;
   height: 350px;
   color: white;
@@ -179,12 +204,13 @@ nav ul li a:hover {
 .section1 h1 {
   margin-top: 50px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Ginto Nord";
   font-size: 3.5rem;
   font-weight: 900;
 }
 
 .section1 p {
+  font-family: "Whitney Regular";
   text-align: center;
   margin-top: 40px;
   font-size: 20px;
@@ -221,7 +247,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -230,11 +256,11 @@ nav ul li a:hover {
   margin-top: 24px;
 }
 
-.buttons a{
+.buttons a {
   text-decoration: none;
 }
 
-.download-button{
+.download-button {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -251,17 +277,17 @@ nav ul li a:hover {
 }
 
 
-.main-btn:hover{
+.main-btn:hover {
   color: #3b4aee;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.bottom-btn:hover{
+.bottom-btn:hover {
   opacity: 0.8;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.browser-button{
+.browser-button {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -274,12 +300,12 @@ nav ul li a:hover {
   transition-duration: 0.2s;
 }
 
-.browser-button:hover{
+.browser-button:hover {
   background: rgb(52, 51, 51);
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.bottom_download-btn{
+.bottom_download-btn {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -318,12 +344,14 @@ nav ul li a:hover {
 }
 
 .box2 h2 {
+  font-family: "Whitney Bold";
   font-size: 48px;
   padding-right: 90px;
   padding-bottom: 40px;
 }
 
 .box2 p {
+  font-family: "Whitney Regular";
   font-size: 20px;
 }
 
@@ -341,12 +369,14 @@ nav ul li a:hover {
 }
 
 .box3 h2 {
+  font-family: "Whitney Bold";
   font-size: 48px;
   padding-right: 75px;
   padding-bottom: 40px;
 }
 
 .box3 p {
+  font-family: "Whitney Regular";
   font-size: 20px;
 }
 
@@ -355,7 +385,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 50px;
 }
 
@@ -379,14 +408,15 @@ nav ul li a:hover {
 
 .box4 p {
   font-size: 20px;
+  font-family: "Whitney Regular";
 }
 
 .box4 h2 {
   font-size: 43px;
   padding-right: 75px;
   padding-bottom: 40px;
+  font-family: "Whitney Bold";
 }
-
 
 
 .box5 {
@@ -399,13 +429,14 @@ nav ul li a:hover {
   font-weight: 800;
   padding-top: 3%;
   letter-spacing: 3px;
-  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Ginto Nord";
 }
 
 .box5 p {
   margin-top: 2%;
   line-height: 25px;
   font-size: 20px;
+  font-family: "Whitney Regular";
 }
 
 .box5 img {
@@ -420,6 +451,7 @@ nav ul li a:hover {
 }
 
 .box6 h1 {
+  font-family: "Whitney Bold";
   font-weight: 800;
   margin-top: -120px;
 }
@@ -435,11 +467,11 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-.box6 a{
+.box6 a {
   text-decoration: none;
 }
 
-.box6 .download-btn:hover{
+.box6 .download-btn:hover {
   background: #8189e2;
   border: 1px solid #8189e2;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 10px 24px;
@@ -472,6 +504,7 @@ footer .footer-nav {
 }
 
 footer .footer-nav .socials h4 {
+  font-family: "Ginto Nord";
   margin-bottom: 5px;
   font-size: 32px;
   color: #5865f2;
@@ -479,6 +512,11 @@ footer .footer-nav .socials h4 {
   line-height: 95%;
   text-transform: uppercase;
   text-rendering: geometricPrecision;
+}
+
+.column h5 {
+  font-family: "Whitney Regular";
+  font-weight: normal;
 }
 
 footer .footer-nav .socials img {
@@ -489,6 +527,7 @@ footer .footer-nav .socials img {
 }
 
 footer .footer-nav .column a {
+  font-family: "Whitney Regular";
   margin-top: 8px;
   font-size: 14px;
   /* color: rgba(255, 255, 255, 0.74); */
@@ -540,17 +579,18 @@ footer .footer-nav h5 {
   cursor: pointer;
 }
 
-.links a{
+.links a {
   color: white;
 }
 
-.links, .links i {
+.links,
+.links i {
   font-size: larger;
   padding: 5px;
   margin: 5px 0px;
 }
 
-.links a:hover{
+.links a:hover {
   cursor: pointer;
   color: #5865f2;
 }
