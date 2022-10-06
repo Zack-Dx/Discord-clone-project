@@ -1,3 +1,25 @@
+(function () {
+  var scrollBtn = document.getElementById("btnScrollToTop");
+  if (window.pageYOffset > 400) {
+    scrollBtn.style.display = "block";
+  } else if (window.pageYOffset <= 400) {
+    scrollBtn.style.display = "none";
+  }
+})();
+
+document.addEventListener(
+  "scroll",
+  (event) => {
+    var scrollBtn = document.getElementById("btnScrollToTop");
+    if (window.pageYOffset > 400) {
+      scrollBtn.style.display = "block";
+    } else if (window.pageYOffset <= 400) {
+      scrollBtn.style.display = "none";
+    }
+  },
+  { passive: true }
+);
+
 const btnScrollToTop = document.getElementById("btnScrollToTop");
 btnScrollToTop.addEventListener("click", function () {
   window.scrollTo({
