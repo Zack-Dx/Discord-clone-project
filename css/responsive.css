@@ -299,15 +299,14 @@
 
   .night-toggle{
     position: relative;
-    top:8px;
+    top:10px;
     right:0;
-    display:non;
+    display:none;
   }
 
   nav{
     justify-content: space-between;
   }
-
 .menu a{
   color:gray;
   font-weight: 400;
@@ -317,11 +316,4 @@
 .menu li {
   text-align: left;
 }
-}
-
-@media screen and (max-width:397px){
-  button.discord{
-    display:none;
-  }
-
 }
