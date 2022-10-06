@@ -361,6 +361,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   padding: 70px;
+  background-color: var(--off-white);
 }
 
 .box3 {
