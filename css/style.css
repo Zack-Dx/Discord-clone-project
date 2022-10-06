@@ -140,6 +140,30 @@ nav ul li a:hover {
   text-decoration-thickness: 10%;
 }
 
+.hidden{
+  all:unset;
+  background-color: #3b4aee;
+  color:white;
+  padding:10px;
+  width:100%;
+  text-align: center;
+  border-radius: 15px;
+  display:none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+}
+.hidden:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.hidden svg{
+  color:white;
+  width:20px;
+  margin-right: 10px;
+}
+
 .logo {
   margin-top: 6px;
   cursor: pointer;
@@ -572,4 +596,13 @@ footer .footer-nav h5 {
 
 #btnScrollToTop:active {
   background: rgb(114, 93, 183);
+}
+
+.for-mobile{
+  display:none;
+}
+
+.wrapper .hamburger{
+  width:50px;
+display:none
 }
