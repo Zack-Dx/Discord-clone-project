@@ -28,8 +28,8 @@ body {
   }  
   .moon {  
    background-color: transparent;  
-   box-shadow: -6px 1px 0 3px #415050;  
-   border-left:3px solid #727475;  
+   box-shadow: -6px 1px 0 3px #f4fcfc;  
+   border-left:3px solid #3a4042;  
    border-radius:50%;  
    width: 20px;  
    height: 20px;  
