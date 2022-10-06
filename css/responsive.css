@@ -240,3 +240,88 @@
     margin-top: 18px;
   }
 }
+
+@media screen and (max-width:700px) {
+  body{
+    overflow-x: hidden;
+  }
+
+ .menu{
+    display:non;
+    flex-direction: column;
+    height:85vh;
+    width:300px;
+    max-width:100vw;
+    position:absolute;
+    right:0;
+    top:0;
+    background-color: white;
+    padding:30px;
+    border-radius: 10px 0 0 10px;
+    transform:translateX(100%);
+    transition: all .5s;
+  }
+
+  .menu.show{
+    transform:translateX(0%);
+  }
+
+  .for-mobile{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-menu-logo{
+    width:100px;
+    height:40px;
+  }
+
+  .for-mobile svg.close{
+    width:30px;
+  }
+
+  nav ul{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .wrapper .hamburger{
+    display:block;
+    color:white;
+    font-weight: bold;
+  }
+
+  .wrapper{
+    display:flex;
+    gap:10px;
+  }
+
+  .night-toggle{
+    position: relative;
+    top:8px;
+    right:0;
+    display:non;
+  }
+
+  nav{
+    justify-content: space-between;
+  }
+
+.menu a{
+  color:gray;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.menu li {
+  text-align: left;
+}
+}
+
+@media screen and (max-width:397px){
+  button.discord{
+    display:none;
+  }
+
+}
