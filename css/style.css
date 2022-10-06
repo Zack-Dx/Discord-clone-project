@@ -235,12 +235,18 @@ removed some styles from (box6 button) */
 }
 
 .browser {
-  background: black;
+  background: rgb(52, 51, 51);
   color: white;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .browser:hover {
-  background: rgb(52, 51, 51);
+ 
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
   transition: 0.2s;
 }
@@ -482,17 +488,18 @@ footer .footer-nav h5 {
   cursor: pointer;
 }
 
-.links a{
+.links a {
   color: white;
 }
 
-.links, .links i {
+.links,
+.links i {
   font-size: larger;
   padding: 5px;
   margin: 5px 0px;
 }
 
-.links a:hover{
+.links a:hover {
   cursor: pointer;
   color: #5865f2;
 }
