@@ -99,7 +99,7 @@ body {
   position: absolute;
 }
 
-/* Improved positioning of Discord logo and Open Discord */ 
+/* Improved positioning of Discord logo and Open Discord */
 nav {
   display: flex;
   justify-content: space-between;
@@ -217,7 +217,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -226,11 +226,11 @@ nav ul li a:hover {
   margin-top: 24px;
 }
 
-.buttons a{
+.buttons a {
   text-decoration: none;
 }
 
-.download-button{
+.download-button {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -247,17 +247,17 @@ nav ul li a:hover {
 }
 
 
-.main-btn:hover{
+.main-btn:hover {
   color: #3b4aee;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.bottom-btn:hover{
+.bottom-btn:hover {
   opacity: 0.8;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.browser-button{
+.browser-button {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -270,12 +270,12 @@ nav ul li a:hover {
   transition-duration: 0.2s;
 }
 
-.browser-button:hover{
+.browser-button:hover {
   background: rgb(52, 51, 51);
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.bottom_download-btn{
+.bottom_download-btn {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -438,24 +438,25 @@ nav ul li a:hover {
 
 /* Added sparkles image */
 .box6 .sparkles {
-  width: 531px;
-  height: 49px;
-  /* background-color: red; */
-  position: absolute;
-  top: -50%;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 60%;
+  height: 70px;
+  margin: 0 auto 90px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .sparkles img {
-  width: 100%;
+  width: 70%;
   object-fit: cover;
 }
 
 .box6 h1 {
   font-family: "Whitney Bold";
   font-weight: 800;
-  margin-top: -120px;
+  margin-top: -20px;
 }
 
 .box6 button {
@@ -478,11 +479,11 @@ nav ul li a:hover {
   box-shadow: -2px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
-.box6 a{
+.box6 a {
   text-decoration: none;
 }
 
-.box6 .download-btn:hover{
+.box6 .download-btn:hover {
   background: #8189e2;
   border: 1px solid #8189e2;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 10px 24px;
@@ -585,17 +586,18 @@ footer .footer-nav h5 {
   cursor: pointer;
 }
 
-.links a{
+.links a {
   color: white;
 }
 
-.links, .links i {
+.links,
+.links i {
   font-size: larger;
   padding: 5px;
   margin: 5px 0px;
 }
 
-.links a:hover{
+.links a:hover {
   cursor: pointer;
   color: #5865f2;
 }
