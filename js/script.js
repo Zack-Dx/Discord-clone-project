@@ -29,4 +29,4 @@ function switchMode() {
    document.body.style.backgroundColor = "#fff";  
    document.body.style.color = "#000";  
   }  
- }  
+ }
