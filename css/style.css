@@ -213,6 +213,7 @@ nav ul li a:hover {
   transition-duration: 0.2s;
 }
 
+
 .download-button:hover{
   color: #3b4aee;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
@@ -233,6 +234,26 @@ nav ul li a:hover {
 
 .browser-button:hover{
   background: rgb(52, 51, 51);
+  box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
+}
+
+.bottom_download-btn{
+  padding: 16px 32px;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5865f2;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  transition: 00.2s;
+}
+
+.bottom_download-btn:hover{
+  opacity: 0.8;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
