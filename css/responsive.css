@@ -230,4 +230,13 @@
   footer .footer-nav {
     grid-template-columns: 1fr;
   }
+
+  .buttons{
+    flex-direction: column;
+    gap: 0;
+  }
+  .browser-button{
+    font-size: 14px;
+    margin-top: 18px;
+  }
 }
