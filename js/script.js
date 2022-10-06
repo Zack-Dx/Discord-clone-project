@@ -1,3 +1,9 @@
+(function () {
+    
+    document.querySelector(".theme-btn").addEventListener("click", () => {
+        document.body.classList.toggle("light-mode");
+    })
+})();
 const btnScrollToTop = document.getElementById("btnScrollToTop");
 btnScrollToTop.addEventListener("click", function () {
   window.scrollTo({
