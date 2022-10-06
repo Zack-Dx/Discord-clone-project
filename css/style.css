@@ -389,6 +389,14 @@ nav ul li a:hover {
   padding: 50px;
 }
 
+.container5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  background-color: var(--off-white);
+}
 .graggle {
   margin-right: 150px;
 }
