@@ -13,6 +13,39 @@ body {
   width: 100%;
 }
 
+body {  
+  transition: 1.5s;  
+  }  
+  .night-toggle {  
+  width: 33px;  
+  height: 33px;  
+  right: 50px;  
+  top: 30px;  
+  position: absolute;  
+  }  
+  .night-toggle:hover{  
+   cursor: pointer;  
+  }  
+  .moon {  
+   background-color: transparent;  
+   box-shadow: -6px 1px 0 3px #415050;  
+   border-left:3px solid #727475;  
+   border-radius:50%;  
+   width: 20px;  
+   height: 20px;  
+   margin-left:8px;  
+   margin-top:0px;  
+   transition: 2s;  
+  }  
+  .sun {  
+   background-color: #fdd462;  
+   box-shadow: 2px 0px 0px 1px #D19C29;  
+   border-radius:50%;  
+   width: 26px;  
+   height: 26px;  
+   transition: 2s;  
+  }  
+
 /* Header Section */
 .navbox {
   height: 70px;
@@ -299,7 +332,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f6f6f6;
   padding: 70px;
 }
 
@@ -355,9 +387,7 @@ nav ul li a:hover {
   padding-bottom: 40px;
 }
 
-.container5 {
-  background-color: rgb(242, 240, 240);
-}
+
 
 .box5 {
   text-align: center;
@@ -387,7 +417,6 @@ nav ul li a:hover {
 .box6 {
   text-align: center;
   padding-bottom: 3%;
-  background-color: rgb(242, 240, 240);
 }
 
 .box6 h1 {
