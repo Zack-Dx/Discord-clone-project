@@ -219,6 +219,30 @@
     padding: 1rem 2rem;
   }
 
+  .box6 .sparkles {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto 90px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 0.2em;
+    /* background-color: red; */
+  }
+  
+  .sparkles img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .box6 h1 {
+    font-family: "Whitney Bold";
+    font-weight: 800;
+    margin-top: -30px;
+  }
+
   .section1 p {
     font-size: 0.85rem;
   }
