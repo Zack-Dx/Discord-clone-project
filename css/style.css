@@ -613,3 +613,10 @@ footer .footer-nav h5 {
 #btnScrollToTop:active {
   background: rgb(114, 93, 183);
 }
+
+/* hide sparkles on smartphones */
+@media (max-width: 1000px) {
+  .hide_sparkles {
+    display: none;
+  }
+}
