@@ -13,56 +13,38 @@ body {
   width: 100%;
 }
 
-body.dark-theme{
-  background-color: #23272a;
-}
-body.dark-theme h2 {
-  color: rgb(47, 150, 13);
-}
-body.dark-theme p{
-  color:rgb(222, 143, 238);
-}
-
-.toggle input[type=checkbox] {
-  display: none;
-}
-
-.toggle label {
-  background-color: #777;
-  border: 2px solid #555;
-  border-radius: 90px;
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: all ease-in-out 0.3s;
-  width: 75px;
-  height: 30px;
-}
-
-.toggle label::after {
-  background-color: #555;
-  border-radius: 50%;
-  content: ' ';
-  cursor: pointer;
-  display: inline-block;
-  position: absolute;
-  left: 1px;
-  
-  
-  transition: all ease-in-out 0.3s;
-  width: 30px;
-  height: 30px;
-}
-
-.toggle input[type=checkbox]:checked ~ label {
-  background-color: #00a0fc;
-  border-color: #006dc9;
-}
-
-.toggle input[type=checkbox]:checked ~ label::after {
-  background-color: #0054B0;
-  transform: translateX(50px);
-}
+body {  
+  transition: 1.5s;  
+  }  
+  .night-toggle {  
+  width: 33px;  
+  height: 33px;  
+  right: 50px;  
+  top: 30px;  
+  position: absolute;  
+  }  
+  .night-toggle:hover{  
+   cursor: pointer;  
+  }  
+  .moon {  
+   background-color: transparent;  
+   box-shadow: -6px 1px 0 3px #415050;  
+   border-left:3px solid #727475;  
+   border-radius:50%;  
+   width: 20px;  
+   height: 20px;  
+   margin-left:8px;  
+   margin-top:0px;  
+   transition: 2s;  
+  }  
+  .sun {  
+   background-color: #fdd462;  
+   box-shadow: 2px 0px 0px 1px #D19C29;  
+   border-radius:50%;  
+   width: 26px;  
+   height: 26px;  
+   transition: 2s;  
+  }  
 
 /* Header Section */
 .navbox {
@@ -332,7 +314,6 @@ removed some styles from (box6 button) */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f6f6f6;
   padding: 70px;
 }
 
@@ -388,9 +369,7 @@ removed some styles from (box6 button) */
   padding-bottom: 40px;
 }
 
-.container5 {
-  background-color: rgb(242, 240, 240);
-}
+
 
 .box5 {
   text-align: center;
@@ -420,7 +399,6 @@ removed some styles from (box6 button) */
 .box6 {
   text-align: center;
   padding-bottom: 3%;
-  background-color: rgb(242, 240, 240);
 }
 
 .box6 h1 {
