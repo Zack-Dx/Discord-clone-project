@@ -214,8 +214,13 @@ nav ul li a:hover {
 }
 
 
-.download-button:hover{
+.main-btn:hover{
   color: #3b4aee;
+  box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
+}
+
+.bottom-btn:hover{
+  opacity: 0.8;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
@@ -252,10 +257,6 @@ nav ul li a:hover {
   transition: 00.2s;
 }
 
-.bottom_download-btn:hover{
-  opacity: 0.8;
-  box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
-}
 
 
 .container2 {
