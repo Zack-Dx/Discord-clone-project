@@ -13,6 +13,10 @@ body {
   width: 100%;
 }
 
+p {
+  line-height: 1.625;
+}
+
 /* Header Section */
 .navbox {
   height: 70px;
@@ -194,15 +198,16 @@ nav ul li a:hover {
   align-items: center;
   margin: 23px;
   padding-right: 45px;
-  padding-left: 69px;
+  padding-left: 41px;
   z-index: 1;
 }
 
 .download-button,
 .browser {
-  margin: 24px;
-  padding: 16px 25px;
+  margin-top: 0;
   border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
   font-size: 18px;
   outline: none;
   border: 0;
@@ -228,7 +233,7 @@ nav ul li a:hover {
 /* Added the same styling as above and added a margin to center the div, 
 removed some styles from (box6 button) */
 .download-btn {
-  padding: 16px 25px;
+  padding: 16px 37px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -237,7 +242,7 @@ removed some styles from (box6 button) */
 }
 
 .browser {
-  background: black;
+  background: rgb(35, 39, 42);
   color: white;
 }
 
@@ -412,7 +417,6 @@ footer .footer-nav {
   border-bottom: 1px solid #7289da;
   max-width: 1260px;
   width: 80%;
-  align-items: center;
 }
 
 footer .footer-nav .socials h4 {
@@ -481,22 +485,6 @@ footer .footer-nav h5 {
   background-color: #23272a;
   color: #fff;
   border: none;
-  cursor: pointer;
-}
-
-.links a{
-  color: white;
-}
-
-.links, .links i {
-  font-size: larger;
-  padding: 5px;
-  margin: 5px 0px;
-}
-
-.links a:hover{
-  cursor: pointer;
-  color: #5865f2;
 }
 
 #btnScrollToTop {
