@@ -482,7 +482,7 @@ nav ul li a:hover {
 /* footer */
 footer {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   color: white;
   background-color: #23272a;
   display: flex;
@@ -496,11 +496,11 @@ footer .footer-nav {
   grid-template-columns: 1.5fr 0.5fr 1fr 1fr 1fr 1fr;
   gap: 0 20px;
   width: 100%;
-  padding-bottom: 3.5rem;
-  border-bottom: 1px solid #7289da;
-  max-width: 1260px;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #5865f2;
+  max-width: 1180px;
   width: 80%;
-  align-items: center;
+  align-items: flex-start;
 }
 
 footer .footer-nav .socials h4 {
@@ -519,23 +519,25 @@ footer .footer-nav .socials h4 {
   font-weight: normal;
 }
 
+.language {
+  margin-top: 24px;
+}
+
 footer .footer-nav .socials img {
-  width: 40px;
-  /* height: 16px; */
-  padding-right: 1rem;
-  padding-top: 1rem;
+  height: 16px;
+  margin-right: 8px;
 }
 
 footer .footer-nav .column a {
   font-family: "Whitney Regular";
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 16px;
   /* color: rgba(255, 255, 255, 0.74); */
   color: #fff;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 
 footer .footer-nav .column a:hover {
@@ -545,16 +547,17 @@ footer .footer-nav .column a:hover {
 footer .footer-nav h5 {
   color: #5865f2;
   font-size: 16px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 4px;
 }
 
 .footer-bar {
-  padding: 1.25rem 2.5rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  max-width: 1260px;
+  max-width: 1180px;
 }
 
 .footer-bar>img {
@@ -563,13 +566,16 @@ footer .footer-nav h5 {
 }
 
 .footer-bar a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #fff;
   border-radius: 40px;
   font-size: 14px;
-  padding: 10px 16px;
+  padding: 7px 16px;
   background-color: #5865f2;
   font-weight: 500;
+  height: 38px;
 }
 
 #country {
@@ -579,15 +585,27 @@ footer .footer-nav h5 {
   cursor: pointer;
 }
 
-.links a {
-  color: white;
+#country:focus {
+  outline: none;
 }
 
-.links,
+.links {
+  margin-top: 24px;
+}
+
+.links a {
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+
 .links i {
-  font-size: larger;
-  padding: 5px;
+  font-size: 22px;
   margin: 5px 0px;
+}
+
+.links :not(:first-of-type) {
+  margin-left: 24px;
 }
 
 .links a:hover {
