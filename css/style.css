@@ -192,7 +192,9 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 24px;
+  margin: 23px;
+  padding-right: 45px;
+  padding-left: 69px;
   z-index: 1;
 }
 
