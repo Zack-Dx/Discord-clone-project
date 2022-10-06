@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
+
 @font-face {
   font-family: "Ginto Nord";
   src: url(../fonts/Ginto\ Nord.ttf);
@@ -19,6 +20,8 @@
   font-family: "Whitney Bold";
   src: url(../fonts/Whitney\ Bold.ttf);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 * {
   margin: 0;
@@ -90,7 +93,6 @@ body {
 }
 
 .box1 p {
-  font-weight: 500;
   font-size: 15px;
 }
 
@@ -147,6 +149,7 @@ nav ul {
 
 nav ul li {
   list-style: none;
+  margin: 0 4px;
 }
 
 nav ul li a {
@@ -196,6 +199,8 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   width: 60%;
+  width: 100%;
+
   margin: auto;
   height: 350px;
   color: white;
@@ -212,8 +217,12 @@ nav ul li a:hover {
 .section1 p {
   font-family: "Whitney Regular";
   text-align: center;
-  margin-top: 40px;
-  font-size: 20px;
+  font-size: 19px;
+  line-height: 1.625;
+  width: 736px;
+  margin: 40px auto 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight : bold;
 }
 
 .shoe {
@@ -353,6 +362,8 @@ nav ul li a:hover {
 .box2 p {
   font-family: "Whitney Regular";
   font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight : bold;
 }
 
 .container3 {
@@ -630,4 +641,12 @@ footer .footer-nav h5 {
 
 #btnScrollToTop:active {
   background: rgb(114, 93, 183);
+
+}
+
+
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight : bold;
 }
