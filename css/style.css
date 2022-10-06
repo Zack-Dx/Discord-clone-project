@@ -148,13 +148,15 @@ nav ul li a:hover {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
-  font-weight: 900;
+  font-weight: 800;
+  line-height: 95%;
 }
 
 .section1 p {
   text-align: center;
   margin-top: 40px;
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .shoe {
@@ -284,10 +286,13 @@ nav ul li a:hover {
   font-size: 48px;
   padding-right: 90px;
   padding-bottom: 40px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .box2 p {
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .container3 {
@@ -308,10 +313,13 @@ nav ul li a:hover {
   font-size: 48px;
   padding-right: 75px;
   padding-bottom: 40px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .box3 p {
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .container4 {
@@ -343,12 +351,15 @@ nav ul li a:hover {
 
 .box4 p {
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .box4 h2 {
   font-size: 43px;
   padding-right: 75px;
   padding-bottom: 40px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .container5 {
@@ -363,6 +374,7 @@ nav ul li a:hover {
 .box5 h1 {
   font-size: 2.5rem;
   font-weight: 800;
+  line-height: 95%;
   padding-top: 3%;
   letter-spacing: 3px;
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -372,6 +384,7 @@ nav ul li a:hover {
   margin-top: 2%;
   line-height: 25px;
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .box5 img {
@@ -389,6 +402,7 @@ nav ul li a:hover {
 .box6 h1 {
   font-weight: 800;
   margin-top: -120px;
+  line-height: 95%;
 }
 
 .box6 button {
