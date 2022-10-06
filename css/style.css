@@ -217,62 +217,80 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.buttons {
+.buttons{
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  margin: 24px;
-  z-index: 1;
+  gap: 24px;
+  margin-top: 24px;
 }
 
-.download-button,
-.browser {
-  margin: 24px;
-  padding: 16px 25px;
+.buttons a{
+  text-decoration: none;
+}
+
+.download-button{
+  padding: 16px 32px;
   border-radius: 28px;
-  font-size: 18px;
-  outline: none;
-  border: 0;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #000;
+  line-height: 24px;
   cursor: pointer;
-  font-weight: 400;
-}
-
-/* Added flex to download-button for fixing the alignment issue */
-.download-button {
-  background: white;
-  display: flex;
+  display: inline-flex;
+  gap: 1rem;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.3em;
+  border: none;
+  transition-duration: 0.2s;
 }
 
-.download-button:hover {
+
+.main-btn:hover{
   color: #3b4aee;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
-  transition: 0.2s;
 }
 
-/* Added the same styling as above and added a margin to center the div, 
-removed some styles from (box6 button) */
-.download-btn {
-  padding: 16px 25px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.3em;
-  margin: 0 auto;
+.bottom-btn:hover{
+  opacity: 0.8;
+  box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.browser {
-  background: black;
-  color: white;
+.browser-button{
+  padding: 16px 32px;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #23272a;
+  color: #fff;
+  cursor: pointer;
+  line-height: 24px;
+  border: none;
+  transition-duration: 0.2s;
 }
 
-.browser:hover {
+.browser-button:hover{
   background: rgb(52, 51, 51);
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
-  transition: 0.2s;
 }
+
+.bottom_download-btn{
+  padding: 16px 32px;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5865f2;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  transition: 00.2s;
+}
+
+
 
 .container2 {
   width: 100%;
@@ -460,6 +478,17 @@ removed some styles from (box6 button) */
   box-shadow: -2px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
+.box6 a{
+  text-decoration: none;
+}
+
+.box6 .download-btn:hover{
+  background: #8189e2;
+  border: 1px solid #8189e2;
+  box-shadow: rgba(0, 0, 0, 0.253) 0px 10px 24px;
+  transition: 0.2s;
+}
+
 /*<------------------------------------------------------->*/
 /* footer */
 footer {
@@ -553,6 +582,22 @@ footer .footer-nav h5 {
   background-color: #23272a;
   color: #fff;
   border: none;
+  cursor: pointer;
+}
+
+.links a{
+  color: white;
+}
+
+.links, .links i {
+  font-size: larger;
+  padding: 5px;
+  margin: 5px 0px;
+}
+
+.links a:hover{
+  cursor: pointer;
+  color: #5865f2;
 }
 
 #btnScrollToTop {
