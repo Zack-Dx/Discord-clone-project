@@ -153,20 +153,11 @@ nav ul li a:hover {
   justify-content: center;
   margin-top: 160px;
 }
-<<<<<<<<< Temporary merge branch 1
-=========
-
->>>>>>>>> Temporary merge branch 2
 .hidden:hover{
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   transform: scale(1.05);
 }
-<<<<<<<<< Temporary merge branch 1
-=========
-
-=======
->>>>>>> 69ac8bacfe24b6edc8e24ba721121358416dac79
 .hidden svg{
   color:white;
   width:20px;
