@@ -41,13 +41,16 @@ document.querySelectorAll(".download-button").forEach((btn) => {
 
 function switchMode() {
   let moon = document.getElementById("moon");
+  let hangOut = document.getElementById("hang-out");
   if (moon.className == "moon") {
     moon.className = "sun";
     document.body.style.backgroundColor = "#141D26";
     document.body.style.color = "#fff";
+    hangOut.style.backgroundColor = "#141D26";
   } else {
     moon.className = "moon";
     document.body.style.backgroundColor = "#fff";
     document.body.style.color = "#000";
+    hangOut.style.backgroundColor = "#f6f6f6";
   }
 }
