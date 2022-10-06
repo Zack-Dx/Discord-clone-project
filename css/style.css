@@ -410,6 +410,7 @@ footer .footer-nav {
   border-bottom: 1px solid #7289da;
   max-width: 1260px;
   width: 80%;
+  align-items: center;
 }
 
 footer .footer-nav .socials h4 {
@@ -478,6 +479,22 @@ footer .footer-nav h5 {
   background-color: #23272a;
   color: #fff;
   border: none;
+  cursor: pointer;
+}
+
+.links a{
+  color: white;
+}
+
+.links, .links i {
+  font-size: larger;
+  padding: 5px;
+  margin: 5px 0px;
+}
+
+.links a:hover{
+  cursor: pointer;
+  color: #5865f2;
 }
 
 #btnScrollToTop {
