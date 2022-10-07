@@ -39,10 +39,9 @@ body {
 
 .night-toggle {
   width: 33px;
-  height: 33px;
-  right: 50px;
-  top: 30px;
+  right: 3.5%;
   position: absolute;
+  padding-left: 15%;
 }
 
 .night-toggle:hover {
@@ -141,7 +140,7 @@ nav {
   padding: 20px;
 }
 
-nav ul {
+nav ul, .wrapper {
   display: flex;
 }
 
@@ -163,6 +162,10 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 10%;
+}
+
+.wrapper {
+  align-items: center;
 }
 
 .hidden{
