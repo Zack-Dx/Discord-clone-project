@@ -764,10 +764,10 @@
   .ios_container {
     background-color: #f6f6f6;
     height: 355px;
-    width: 70%;
+    width: 90%;
     position: relative;
-    top: 45%;
-    left: 14%;
+    top: 30%;
+    left: 5%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
@@ -786,8 +786,9 @@
     width: 160px;
     color: white;
     background-color: black;
+    border: none;
     /* text-decoration: none; */
-    border-radius: 20px;
+    border-radius: 30px;
     position: relative;
     top: 13%;
     left: 30%;
@@ -795,11 +796,11 @@
   .android_container {
     background-color: #f6f6f6;
     height: 355px;
-    width: 70%;
+    width: 90%;
     position: relative;
-    top: 45%;
-    left: 14%;
-    margin-bottom: 0%;
+    top: 30%;
+    left: 5%;
+    margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
     flex-direction: column;
@@ -817,8 +818,9 @@
     width: 150px;
     color: white;
     background-color: black;
+    border: none;
     /* text-decoration: none; */
-    border-radius: 20px;
+    border-radius: 30px;
     position: relative;
     top: 14%;
     left: 32%;
@@ -826,10 +828,10 @@
   .linux_container {
     background-color: #f6f6f6;
     height: 355px;
-    width: 70%;
+    width: 90%;
     position: relative;
-    top: 50%;
-    left: 14%;
+    top: 30%;
+    left: 5%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
@@ -848,26 +850,26 @@
     width: 150px;
     color: white;
     background-color: black;
+    border: none;
     /* text-decoration: none; */
-    border-radius: 20px;
+    border-radius: 30px;
     position: relative;
-    top: -16%;
-    left: 29%;
+    left: 31%;
     z-index: 10;
   }
   .linux_img {
-    width: 45%;
+    width: 75%;
     position: relative;
-    top: 43%;
-    left: -13%;
+    top: 20%;
+    left: 8%;
   }
   .mac_container {
     background-color: #f6f6f6;
     height: 355px;
-    width: 70%;
+    width: 90%;
     position: relative;
-    top: 50%;
-    left: 14%;
+    top: 30%;
+    left: 5%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
@@ -886,26 +888,27 @@
     width: 150px;
     color: white;
     background-color: black;
+    border: none;
     /* text-decoration: none; */
-    border-radius: 20px;
+    border-radius: 30px;
     position: relative;
-    top: -14%;
+    /* top: -14%; */
     left: 32%;
     z-index: 10;
   }
   .mac_img {
-    width: 57%;
+    width: 75%;
     position: relative;
-    top: 44%;
-    left: -15%;
+    top: 20%;
+    /* left: -15%; */
   }
   .public_test_container {
     background-color: #f6f6f6;
     height: 290px;
-    width: 70%;
+    width: 90%;
     position: relative;
-    top: 50%;
-    left: 14%;
+    top: 30%;
+    left: 5%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
