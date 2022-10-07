@@ -988,7 +988,7 @@ footer .footer-nav h5 {
   max-width: 1180px;
 }
 
-.footer-bar>img {
+.footer-bar> img{
   width: 124px;
   height: 40px;
 }
@@ -1004,8 +1004,11 @@ footer .footer-nav h5 {
   background-color: #5865f2;
   font-weight: 500;
   height: 38px;
+  transition: 0.5s;
 }
-
+.footer-bar a:hover {
+  background-color: #787fe9;
+}
 #country {
   background-color: #23272a;
   color: #fff;
