@@ -659,21 +659,48 @@
 }
 
 @media screen and (max-width: 576px) {
-  /* body{
-    overflow: hidden;
-  } */
+  .container{
+    height: 660px;
+  }
+
+  .container:before {
+    display: none;
+}
+  
+  .shoe {
+    height: 210px;
+    width: auto;
+    margin-left: 10px;
+  }
+  
+  .dino{
+    display: none;
+  }
+  
+  .navbar {
+    padding: 0 24px;
+    height: 80px;
+  }
+  
+  .discord {
+    display: none;
+  }
+  
   .section1 {
     display: flex;
     justify-content: start;
-    padding: 1rem 2rem;
+    gap: 0;
+    padding: 56px 24px;
   }
 
   .section1 h1{
-      font-size: 33.55px;
+      font-size: 24px;
   }
 
   .section1 p {
-    font-size: 0.85rem;
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 1.625;
   }
 
   footer {
@@ -685,12 +712,16 @@
   }
 
   .buttons{
-    flex-direction: column;
-    gap: 0;
+    margin: 24px 0 0 0;
   }
+
+  .download-button {
+    font-size: 20px !important;
+    padding: 16px 32px !important;
+  }
+
   .browser-button{
-    font-size: 14px;
-    margin-top: 18px;
+    display: none;
   }
   .content2{
     display: none;
