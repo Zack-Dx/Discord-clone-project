@@ -207,6 +207,7 @@
   footer .footer-bar {
     gap: 0 1rem;
     width: 100%;
+    padding: 2rem;
   }
 
   footer .footer-nav .socials h4 {
