@@ -1054,6 +1054,7 @@ footer .footer-nav h5 {
   border: none;
   outline: none;
   cursor: pointer;
+  animation: scrollbtn .3s;
 }
 
 #btnScrollToTop:active {
