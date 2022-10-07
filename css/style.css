@@ -249,7 +249,7 @@ nav ul li a:hover {
   height: 300px;
   width: 600px;
   position: absolute;
-  left: -16%;
+  left: -6%;
   z-index: -1;
   bottom: 0%;
   overflow: hidden;
@@ -270,10 +270,9 @@ nav ul li a:hover {
   position: absolute;
   height: 318px;
   width: 290px;
-  right: 0%;
+  right: 9%;
   bottom: 0%;
   pointer-events: none;
-  overflow: hidden;
 }
 
 .buttons {
