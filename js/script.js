@@ -70,3 +70,16 @@ close.addEventListener('click',function(e){
   menu.classList.remove('show');
   hidden.style.display = 'none';
 })
+let mybutton = document.getElementById("btnScrollToTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.documentElement.scrollTop > 800) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
