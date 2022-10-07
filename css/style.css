@@ -349,7 +349,14 @@ nav ul li a:hover {
   transition: 00.2s;
 }
 
+.container_animate {
+  transition: all 1s;
+}
 
+.section--hidden {
+  opacity: 0;
+  transform: translateY(4rem);
+}
 
 .container2 {
   width: 100%;

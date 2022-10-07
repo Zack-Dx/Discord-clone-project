@@ -70,3 +70,22 @@ close.addEventListener('click',function(e){
   menu.classList.remove('show');
   hidden.style.display = 'none';
 })
+
+function sectionObserverCallback(entries, observer) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+
+    entry.target.classList.remove('section--hidden');
+    observer.unobserve(entry.target);
+  });
+}
+
+const sectionObserver = new IntersectionObserver(sectionObserverCallback, {
+  root: null,
+  threshold: 0.15,
+});
+
+sections.forEach(section => {
+  section.classList.add('section--hidden');
+  sectionObserver.observe(section);
+});
