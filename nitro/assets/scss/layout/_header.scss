@@ -1,0 +1,100 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+
+    &__logo{
+        &-image{
+            display: block;
+        }
+    }
+
+    &__btn-group{
+        display: flex;
+        align-items: center;
+    }
+
+    &__backdrop{
+        position: fixed;
+        inset: 0;
+        background-color: rgba($color: #000, $alpha: .3);
+        z-index: 997;
+    }
+
+    &__menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 998;
+        width: 33rem;
+        background-color: var(--light-color);
+        border-top-left-radius: .8rem;
+        border-bottom-left-radius: .8rem;
+        padding: 2.4rem 4.8rem 12rem 2.4rem;
+        transform: translateX(33rem);
+
+        &--active{
+            transform: translateX(0);
+            transition: transform .15s;
+        }
+
+        &-divider{
+            height: 1px;
+            background-color: #ebedef;
+            margin-top: 2.4rem;
+            margin-bottom: 1.6rem;
+        }
+
+        &-footer{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 2.4rem;
+        }
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+
+        &-link{
+            display: block;
+            padding: .8rem 1.6rem;
+            color: var(--dark-color);
+        }
+    }
+
+    @media screen and (min-width: 64em) {
+        &__menu{
+            position: initial;
+            width: initial;
+            background-color: transparent;
+            border-radius: initial;
+            padding: initial;
+            transform: initial;
+
+            :is(&-logo, &-divider, &-footer){
+                display: none;
+            }
+        }
+
+        &__list{
+            flex-direction: row;
+
+            &-link{
+                padding: 1rem;
+                margin-inline: 1rem;
+                color: var(--light-color);
+                font-weight: 600;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }   
+}

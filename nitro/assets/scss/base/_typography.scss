@@ -1,0 +1,12 @@
+.adaptive-font{
+    text-align: center;
+
+    &--medium{
+        font-size: var(--font-size-medium);
+        line-height: 140%;
+    }
+
+    &--large{
+        font-size: var(--font-size-large);
+    }
+}

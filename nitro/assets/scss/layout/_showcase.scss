@@ -1,0 +1,103 @@
+.background {
+    position: relative;
+    background-image: linear-gradient(90deg, #b473f5, #e292aa);
+
+    &__video {
+        display: none;
+    }
+
+    @media screen and (min-width: 64em) {
+        background: transparent;
+        overflow: hidden;
+
+        &__video{
+            display: block;
+            position: absolute;
+            top: 72%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            min-width: 140%;
+            min-height: 150%;
+        }
+    }
+
+    @media screen and (min-width: 81.25em) {
+        &__video{
+            top: 75%;
+            min-height: 135%;
+        }
+    }
+
+    @media screen and (min-width: 107.5em) {
+        &__video {
+            top: 80%;
+            min-height: 130%;
+        }
+    }
+}
+
+.showcase {
+    padding-top: 5.6rem;
+    padding-bottom: 11.2rem;
+    overflow-x: hidden;
+
+    &__images {
+        position: relative;
+
+        &-wumpus {
+            position: absolute;
+            left: 50%;
+            transform: translateX(1.2rem);
+            width: 25rem;
+        }
+
+        &-nitro {
+            width: 30rem;
+            margin-top: 15.2rem;
+            margin-inline: auto;
+        }
+    }
+
+    &__paragraph {
+        margin-top: 4rem;
+    }
+
+    @media screen and (min-width: 48em) {
+        padding-top: 8rem;
+        padding-bottom: 13.6rem;
+
+        &__paragraph{
+            grid-column: 2/span 6;
+        }
+
+        &__btn-group{
+            justify-content: center;
+        }
+    }
+    @media screen and (min-width: 64em) {
+        padding-top: 12rem;
+        padding-bottom: 17.6rem;
+
+        &__images-wumpus {
+            display: none;
+        }
+
+        &__images-nitro{
+            margin: 0;
+        }
+
+        &__paragraph {
+            text-align: left;
+        }
+
+        &__btn-group {
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+
+        :is(&__images-nitro, &__paragraph, &__btn-group){
+            grid-column: 1/span 6;
+        }
+    }
+}

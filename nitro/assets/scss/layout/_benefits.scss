@@ -1,0 +1,133 @@
+.benefits {
+    padding-top: 5.6rem;
+    padding-bottom: 3.2rem;
+
+    &__heading {
+        color: var(--dark-color);
+    }
+
+    &__title {
+        font-weight: 800;
+        line-height: 95%;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        margin-top: 2.4rem;
+    }
+
+    &__cards {
+        gap: 2rem;
+        margin-top: 5.6rem;
+    }
+
+    &__card {
+        padding: 3.2rem;
+        border-radius: .8rem;
+        text-align: center;
+
+        &-title {
+            font-weight: normal;
+        }
+
+        &-description {
+            line-height: 2.4rem;
+            margin-top: 1.2rem;
+        }
+
+        &-image {
+            margin-top: 2rem;
+            margin-inline: auto;
+        }
+
+        &:nth-child(1) {
+            background: var(--card-gradient-1);
+        }
+
+        &:nth-child(2) {
+            background: var(--card-gradient-2);
+        }
+
+        &:nth-child(3) {
+            background: var(--card-gradient-3);
+        }
+
+        &:nth-child(4) {
+            background: var(--card-gradient-4);
+        }
+
+        &:nth-child(5) {
+            background: var(--card-gradient-5);
+        }
+
+        &:nth-child(6) {
+            background: var(--card-gradient-6);
+        }
+
+        &:nth-child(5),
+        &:nth-child(6) {
+            img {
+                width: 17.7rem;
+                height: 11.6rem;
+            }
+        }
+    }
+
+    &__footer {
+        padding-top: 5.6rem;
+
+        &-title {
+            font-size: clamp(1.8rem, 3vw, 3.2rem);
+            line-height: 120%;
+            color: var(--dark-color);
+        }
+    }
+
+    @media screen and (min-width: 48em) {
+        padding-top: 8rem;
+        padding-bottom: 5.6rem;
+
+        &__cards {
+            margin-top: 8rem;
+        }
+
+        &__card {
+            grid-column: span 4;
+        }
+
+        &__footer {
+            margin-top: 8rem;
+
+            .btn {
+                width: 100%;
+
+                &:first-child {
+                    margin-right: 2rem;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 64em) {
+        padding-top: 12rem;
+        padding-bottom: 9.6rem;
+
+        &__cards {
+            margin-top: 12rem;
+        }
+
+
+        &__footer {
+            margin-top: 12rem;
+
+            &-btn-group {
+                justify-content: center;
+            }
+
+            .btn {
+                width: 38rem;
+            }
+        }
+    }
+
+}

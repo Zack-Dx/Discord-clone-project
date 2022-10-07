@@ -1,0 +1,26 @@
+:root {
+    --light-color: #fff;
+    --dark-color: #23272a;
+    --brand-color: #5865f2;
+    --card-gradient-1: linear-gradient(142.53deg, #00a295, #26e8f4 98.75%), #3dcda7;
+    --card-gradient-2: linear-gradient(321.82deg, #21f2ff, #4181ff 59.22%, #4475ff 98.02%), #7196ff;
+    --card-gradient-3: linear-gradient(138.46deg, #3e70ff 1.48%, #9a98ff 98.75%), #ff73fa;
+    --card-gradient-4: linear-gradient(141.85deg, #7e7bff, #ff73fa);
+    --card-gradient-5: linear-gradient(141.48deg, #f837ee 1.35%, #ffcd4b);
+    --card-gradient-6: linear-gradient(321.73deg, #ffcd4b -1.09%, #ee6315 100.65%);
+    --font-size-normal: 1.6rem;
+    --font-size-medium: clamp(1.6rem, 2vw, 2rem);
+    --font-size-large: clamp(2rem, 4vw, 4rem);
+    --number-of-columns: 4;
+    --page-gutter: 2.4rem;
+    --whitney-font: 'whitney', 'Helvetica', sans-serif;
+
+    @media screen and (min-width: 48em) {
+        --number-of-columns: 8;
+        --page-gutter: 4rem;
+    }
+
+    @media screen and (min-width: 64em) {
+        --number-of-columns: 12;
+    }
+}
