@@ -131,6 +131,10 @@
     margin: 0;
   }
 
+  .night-toggle {
+    right: 4.5%;
+  }
+
   /* NAVIGATION ENDS */
 
   /* BANNER STARTS */
@@ -250,7 +254,7 @@
   }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
   body{
     overflow-x: hidden;
   }
