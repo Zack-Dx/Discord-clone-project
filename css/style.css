@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 @font-face {
   font-family: "Ginto Nord";
@@ -36,6 +37,11 @@ body {
 body {
   transition: 1.5s;
 }
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
 
 .night-toggle {
   width: 33px;
@@ -292,7 +298,7 @@ nav ul li a:hover {
 .download-button {
   padding: 16px 32px;
   border-radius: 28px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   background-color: #fff;
   color: #000;
@@ -319,7 +325,7 @@ nav ul li a:hover {
 .browser-button {
   padding: 16px 32px;
   border-radius: 28px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   background-color: #23272a;
   color: #fff;
@@ -382,6 +388,7 @@ nav ul li a:hover {
 .box2 p {
   font-family: "Whitney Regular";
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .container3 {
@@ -408,6 +415,7 @@ nav ul li a:hover {
 .box3 p {
   font-family: "Whitney Regular";
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .container4 {
@@ -439,6 +447,7 @@ nav ul li a:hover {
 .box4 p {
   font-size: 20px;
   font-family: "Whitney Regular";
+  line-height: 1.625;
 }
 
 .box4 h2 {
@@ -464,7 +473,7 @@ nav ul li a:hover {
 
 .box5 p {
   margin-top: 2%;
-  line-height: 25px;
+  line-height: 1.625;
   font-size: 20px;
   font-family: "Whitney Regular";
 }
