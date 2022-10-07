@@ -134,6 +134,19 @@ p{
   width: 100%;
   z-index: 1;
 }
+.stars-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  position: absolute;
+  width: 100%;
+  margin: auto 0px;
+}
+.stars-container img {
+  width: 50%;
+  margin: auto;
+  margin-top: -15px;
+}
 
 .nav_content{
   background-color: transparent;
@@ -1054,7 +1067,6 @@ footer .footer-nav h5 {
   border: none;
   outline: none;
   cursor: pointer;
-  animation: scrollbtn .3s;
 }
 
 #btnScrollToTop:active {
