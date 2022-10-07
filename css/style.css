@@ -519,6 +519,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
+    margin-bottom: 2rem;
 }
 
 nav ul, .wrapper {
@@ -1059,4 +1060,18 @@ footer .footer-nav h5 {
 .wrapper .hamburger{
   width:40px;
 display:none
+}
+p {
+  line-height: 2rem;
+  
+}
+
+@keyframes scrollbtn {
+  from {
+    transform: translateY(2rem);
+  }
+
+  to {
+    transform: none;
+  }
 }
