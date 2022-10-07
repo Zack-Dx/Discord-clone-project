@@ -719,7 +719,6 @@
     /* overflow: hidden; */
   }
   .title_nav {
-    width: 520px;
     position: relative;
     top: 22%;
     left: 14%;
@@ -732,7 +731,7 @@
   .title_nav h3 {
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    width: 500px;
+    width: 300px;
     color: white;
     margin-top: 30px;
   }
@@ -1136,7 +1135,7 @@
   }
 }
 
-}
+
 
 .for-mobile .downloadButtonWrapper-qXeiyh{
   display: flex;
