@@ -1,10 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+@font-face {
+  font-family: "Ginto Nord";
+  src: url(../fonts/Ginto\ Nord.ttf);
+}
+
+@font-face {
+  font-family: "Whitney Regular";
+  src: url(../fonts/Whitney\ Regular.ttf);
+}
+
+@font-face {
+  font-family: "Whitney Medium";
+  src: url(../fonts/Whitney\ Medium.ttf);
+}
+
+@font-face {
+  font-family: "Whitney Bold";
+  src: url(../fonts/Whitney\ Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Whitney", Helvetica Neue, "Helvetica", Arial, sans-serif;
   box-sizing: border-box;
 }
 
@@ -12,6 +32,42 @@ html,
 body {
   height: 100%;
   width: 100%;
+}
+
+body {
+  transition: 1.5s;
+}
+
+.night-toggle {
+  width: 33px;
+  right: 3.5%;
+  position: absolute;
+  padding-left: 15%;
+}
+
+.night-toggle:hover {
+  cursor: pointer;
+}
+
+.moon {
+  background-color: transparent;
+  box-shadow: -6px 1px 0 3px #f4fcfc;
+  border-left: 3px solid #3a4042;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: 0px;
+  transition: 2s;
+}
+
+.sun {
+  background-color: #fdd462;
+  box-shadow: 2px 0px 0px 1px #D19C29;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  transition: 2s;
 }
 
 /* Header Section */
@@ -46,7 +102,6 @@ body {
   border-radius: 40px;
   font-size: 0.8rem;
   padding: 10px 14px;
-
   background: #3b4aee;
   color: white;
   border: 1px solid #404eed;
@@ -466,7 +521,7 @@ nav {
   padding: 20px;
 }
 
-nav ul {
+nav ul, .wrapper {
   display: flex;
 }
 
@@ -475,9 +530,11 @@ nav ul li {
 }
 
 nav ul li a {
+  letter-spacing: 0.5px;
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
+  font-family: "Whitney Medium";
   font-weight: 600;
   padding: 10px;
   margin: 10px;
@@ -486,6 +543,34 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 10%;
+}
+
+.wrapper {
+  align-items: center;
+}
+
+.hidden{
+  all:unset;
+  background-color: #3b4aee;
+  color:white;
+  padding:10px;
+  width:100%;
+  text-align: center;
+  border-radius: 15px;
+  display:none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+}
+.hidden:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.hidden svg{
+  color:white;
+  width:20px;
+  margin-right: 10px;
 }
 
 .logo {
@@ -518,24 +603,27 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   margin: auto;
   height: 350px;
   color: white;
+  align-items: center;
 }
 
 .section1 h1 {
   margin-top: 50px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Ginto Nord";
   font-size: 3.5rem;
   font-weight: 900;
 }
 
 .section1 p {
+  font-family: "Whitney Regular";
   text-align: center;
   margin-top: 40px;
   font-size: 20px;
+  max-width: 780px;
 }
 
 .shoe {
@@ -569,7 +657,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -578,11 +666,11 @@ nav ul li a:hover {
   margin-top: 24px;
 }
 
-.buttons a{
+.buttons a {
   text-decoration: none;
 }
 
-.download-button{
+.download-button {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -599,17 +687,17 @@ nav ul li a:hover {
 }
 
 
-.main-btn:hover{
+.main-btn:hover {
   color: #3b4aee;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.bottom-btn:hover{
+.bottom-btn:hover {
   opacity: 0.8;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.browser-button{
+.browser-button {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -622,12 +710,12 @@ nav ul li a:hover {
   transition-duration: 0.2s;
 }
 
-.browser-button:hover{
+.browser-button:hover {
   background: rgb(52, 51, 51);
   box-shadow: rgba(0, 0, 0, 0.253) 0px 8px 24px;
 }
 
-.bottom_download-btn{
+.bottom_download-btn {
   padding: 16px 32px;
   border-radius: 28px;
   font-size: 20px;
@@ -670,12 +758,14 @@ nav ul li a:hover {
 }
 
 .box2 h2 {
+  font-family: "Whitney Bold";
   font-size: 48px;
   padding-right: 90px;
   padding-bottom: 40px;
 }
 
 .box2 p {
+  font-family: "Whitney Regular";
   font-size: 20px;
 }
 
@@ -684,8 +774,8 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f6f6f6;
   padding: 70px;
+  background-color: #f6f6f6;
 }
 
 .box3 {
@@ -694,12 +784,14 @@ nav ul li a:hover {
 }
 
 .box3 h2 {
+  font-family: "Whitney Bold";
   font-size: 48px;
   padding-right: 75px;
   padding-bottom: 40px;
 }
 
 .box3 p {
+  font-family: "Whitney Regular";
   font-size: 20px;
 }
 
@@ -708,7 +800,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 50px;
 }
 
@@ -732,17 +823,16 @@ nav ul li a:hover {
 
 .box4 p {
   font-size: 20px;
+  font-family: "Whitney Regular";
 }
 
 .box4 h2 {
   font-size: 43px;
   padding-right: 75px;
   padding-bottom: 40px;
+  font-family: "Whitney Bold";
 }
 
-.container5 {
-  background-color: rgb(242, 240, 240);
-}
 
 .box5 {
   text-align: center;
@@ -754,13 +844,14 @@ nav ul li a:hover {
   font-weight: 800;
   padding-top: 3%;
   letter-spacing: 3px;
-  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Ginto Nord";
 }
 
 .box5 p {
   margin-top: 2%;
   line-height: 25px;
   font-size: 20px;
+  font-family: "Whitney Regular";
 }
 
 .box5 img {
@@ -772,10 +863,10 @@ nav ul li a:hover {
 .box6 {
   text-align: center;
   padding-bottom: 3%;
-  background-color: rgb(242, 240, 240);
 }
 
 .box6 h1 {
+  font-family: "Whitney Bold";
   font-weight: 800;
   margin-top: -120px;
 }
@@ -791,11 +882,11 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-.box6 a{
+.box6 a {
   text-decoration: none;
 }
 
-.box6 .download-btn:hover{
+.box6 .download-btn:hover {
   background: #8189e2;
   border: 1px solid #8189e2;
   box-shadow: rgba(0, 0, 0, 0.253) 0px 10px 24px;
@@ -806,7 +897,7 @@ nav ul li a:hover {
 /* footer */
 footer {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   color: white;
   background-color: #23272a;
   display: flex;
@@ -820,14 +911,15 @@ footer .footer-nav {
   grid-template-columns: 1.5fr 0.5fr 1fr 1fr 1fr 1fr;
   gap: 0 20px;
   width: 100%;
-  padding-bottom: 3.5rem;
-  border-bottom: 1px solid #7289da;
-  max-width: 1260px;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #5865f2;
+  max-width: 1180px;
   width: 80%;
-  align-items: center;
+  align-items: flex-start;
 }
 
 footer .footer-nav .socials h4 {
+  font-family: "Ginto Nord";
   margin-bottom: 5px;
   font-size: 32px;
   color: #5865f2;
@@ -837,22 +929,30 @@ footer .footer-nav .socials h4 {
   text-rendering: geometricPrecision;
 }
 
+.column h5 {
+  font-family: "Whitney Regular";
+  font-weight: normal;
+}
+
+.language {
+  margin-top: 24px;
+}
+
 footer .footer-nav .socials img {
-  width: 40px;
-  /* height: 16px; */
-  padding-right: 1rem;
-  padding-top: 1rem;
+  height: 16px;
+  margin-right: 8px;
 }
 
 footer .footer-nav .column a {
+  font-family: "Whitney Regular";
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 16px;
   /* color: rgba(255, 255, 255, 0.74); */
   color: #fff;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 
 footer .footer-nav .column a:hover {
@@ -862,16 +962,17 @@ footer .footer-nav .column a:hover {
 footer .footer-nav h5 {
   color: #5865f2;
   font-size: 16px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 4px;
 }
 
 .footer-bar {
-  padding: 1.25rem 2.5rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  max-width: 1260px;
+  max-width: 1180px;
 }
 
 .footer-bar>img {
@@ -880,13 +981,16 @@ footer .footer-nav h5 {
 }
 
 .footer-bar a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #fff;
   border-radius: 40px;
   font-size: 14px;
-  padding: 10px 16px;
+  padding: 7px 16px;
   background-color: #5865f2;
   font-weight: 500;
+  height: 38px;
 }
 
 #country {
@@ -896,17 +1000,30 @@ footer .footer-nav h5 {
   cursor: pointer;
 }
 
-.links a{
-  color: white;
+#country:focus {
+  outline: none;
 }
 
-.links, .links i {
-  font-size: larger;
-  padding: 5px;
+.links {
+  margin-top: 24px;
+}
+
+.links a {
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+
+.links i {
+  font-size: 22px;
   margin: 5px 0px;
 }
 
-.links a:hover{
+.links :not(:first-of-type) {
+  margin-left: 24px;
+}
+
+.links a:hover {
   cursor: pointer;
   color: #5865f2;
 }
@@ -928,4 +1045,13 @@ footer .footer-nav h5 {
 
 #btnScrollToTop:active {
   background: rgb(114, 93, 183);
+}
+
+.for-mobile{
+  display:none;
+}
+
+.wrapper .hamburger{
+  width:40px;
+display:none
 }

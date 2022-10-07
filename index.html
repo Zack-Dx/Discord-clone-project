@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
   <link rel="icon" href="./img/favicon.ico?v=2" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <title>Discord Clone</title>
+  <title>Discord | Your Place to Talk and Hang Out</title>
 </head>
 
 <body>
@@ -61,6 +61,13 @@
           </g>
         </svg>
       </div>
+      <div class="menu">
+        <div class="display-flex space-between for-mobile">
+        <img src="img/logo.png" alt="discord logo" class="mobile-menu-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 close">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>        
+      </div>
       <ul>
         <li><a href="./download.html">Download</a></li>
         <li><a href="#">Nitro</a></li>
@@ -70,7 +77,22 @@
         <li><a href="#">Blog</a></li>
         <li><a href="#">Careers</a></li>
       </ul>
-      <button class="discord">Open Discord</button>
+      <button type="button" class="hidden"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+      </svg>
+      </svg>Download for windows</button>
+    </div>
+    <div class="wrapper">
+      <button class="discord" onclick="location.href='https://discord.com/channels/@me';">Open Discord</button>
+
+      <div class="night-toggle">
+        <div class="moon" id="moon" onclick="switchMode()"></div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hamburger">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+      
+    </div>
     </nav>
     <div class="section1">
       <h1>IMAGINE A PLACE...</h1>
@@ -78,17 +100,20 @@
 
       <p>
         ...where you can belong to a school club, a gaming group, or a
-        worldwide art community. Where just you and a handful of friends can
+        worldwide art community.  Where just you and a handful of friends can
         spend time together. A place that makes it easy to talk every day and
         hang out more often.
       </p>
       <div class="buttons">
-        <a href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
-        <button class="download-button main-btn">
-          <i class="fa-solid fa-arrow-down"></i> Download for Windows
-        </button>
+        <a
+          href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
+          <button class="download-button main-btn">
+            <i class="fa-solid fa-arrow-down"></i> Download for Windows
+          </button>
         </a>
+        <a href="https://discord.com/app">
         <button class="browser-button">Open Discord in browser</button>
+      </a> 
       </div>
 
       <div class="shoe">
@@ -101,39 +126,39 @@
   </div>
   <div class="container2 wow animate__animated animate__fadeInUp">
     <div id="studygroup">
-      <img src="./img/container2.jpg" alt="" />
+      <img src="./img/container2.png" alt="" />
     </div>
     <div class="box2">
-      <h2>Create an invite-only place where you belong</h2>
+      <h2>Create an <br> invite-only <br> place where you belong</h2>
       <p>
-        Discord servers are organized into topic-based channels where you can
-        collaborate, share, and just talk about your day without clogging up a
+        Discord servers are organized into topic- <br> based channels where you can
+        collaborate, <br> share, and just talk about your day without <br> clogging up a
         group chat.
       </p>
     </div>
   </div>
-  <div class="container3">
+  <div class="container3" id="hang-out">
     <div class="box3 wow animate__animated animate__fadeInUp">
-      <h2>Where hanging out is easy</h2>
+      <h2>Where hanging <br> out is easy</h2>
       <p>
-        Grab a seat in a voice channel when you’re free. Friends in your
-        server can see you’re around and instantly pop in to talk without
+        Grab a seat in a voice channel when you’re <br> free. Friends in your
+        server can see you’re <br> around and instantly pop in to talk without <br>
         having to call.
       </p>
     </div>
     <div id="justchill" class="wow animate__animated animate__fadeInUp">
-      <img src="./img/container3.png" alt="" />
+      <img src="./img/container3.svg" alt="" />
     </div>
   </div>
   <div class="container4">
     <div class="graggle wow animate__animated animate__fadeInUp">
-      <img src="./img/container4.jpg" alt="" />
+      <img src="./img/container4.png" alt="" />
     </div>
     <div class="box4 wow animate__animated animate__fadeInUp">
-      <h2>From few to a fandom</h2>
+      <h2>From few to a <br> fandom</h2>
       <p>
-        Get any community running with moderation tools and custom member
-        access. Give members special powers, set up private channels, and
+        Get any community running with moderation <br> tools and custom member
+        access. Give <br> members special powers, set up private <br> channels, and
         more.
       </p>
     </div>
@@ -150,11 +175,12 @@
     </div>
     <div class="box6">
       <h1>Ready to start your journey?</h1>
-      <a href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
-      <button class="download-button bottom-btn">
-        <i class="fa-solid fa-arrow-down"></i> Download for Windows
-      </button>
-    </a>
+      <a
+        href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
+        <button class="download-button bottom-btn">
+          <i class="fa-solid fa-arrow-down"></i> Download for Windows
+        </button>
+      </a>
     </div>
   </div>
 
@@ -164,15 +190,16 @@
     <div class="footer-nav">
       <div class="socials">
         <h4>IMAGINE A PLACE</h4>
-        <img src="img/Flag-logo.png" />
-        <!--English, USA-->
-        <select id="country">
-          <option value="English">English, USA</option>
-          <option value="Hindi">Hindi, India</option>
-          <option value="Polski">Polski, Poland</option>
-          <option value="French">French, France</option>
-          <option value="Kurdish">Kurdish, Turkey</option>
-        </select>
+        <div class="language">
+          <img src="img/Flag-logo.png" />
+          <select id="country">
+            <option value="English">English, USA</option>
+            <option value="Hindi">Hindi, India</option>
+            <option value="Polski">Polski, Poland</option>
+            <option value="French">French, France</option>
+            <option value="Kurdish">Kurdish, Turkey</option>
+          </select>
+        </div>
         <div class="links">
           <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
           <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -209,7 +236,7 @@
         <a href="#">Terms</a>
         <a href="#">Privacy</a>
         <a href="#">Cookie Settings</a>
-        <a href="#">Guideines</a>
+        <a href="#">Guidelines</a>
         <a href="#">Acknowledgements</a>
         <a href="#">Licenses</a>
         <a href="#">Moderation</a>
