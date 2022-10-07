@@ -1011,6 +1011,7 @@
   body{
     overflow-x: hidden;
   }
+  
 
  .menu{
     display:non;
@@ -1030,17 +1031,30 @@
 
   .menu.show{
     transform:translateX(0%);
+    box-shadow: 0 25px 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+  }
+  .menu.show::backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+    z-index: 9999;
   }
 
   .for-mobile{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
+    
   }
 
   .mobile-menu-logo{
-    width:100px;
-    height:40px;
+    width:124px;
+    height:34px;
   }
 
   .for-mobile svg.close{
@@ -1060,11 +1074,13 @@
     display:block;
     color:white;
     font-weight: bold;
+    
   }
 
   .wrapper{
     display:flex;
     gap:10px;
+    align-items: center;
   }
 
   .night-toggle{
@@ -1078,7 +1094,7 @@
     justify-content: space-between;
   }
 .menu a{
-  color:gray;
+  color:rgb(0, 0, 0);
   font-weight: 400;
   font-size: 16px;
 }
@@ -1086,4 +1102,83 @@
 .menu li {
   text-align: left;
 }
+}
+
+.for-mobile .downloadButtonWrapper-qXeiyh{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.for-mobile .button-ZGMevK{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 34px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .15s ease-out,box-shadow .15s ease-out;
+  background-color: #5865f2;
+  
+  text-decoration: none;
+  margin: 0;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.for-mobile .footer-20pSjV{
+  display: flex;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 120px;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  background: linear-gradient(180deg,hsla(0,0%,100%,0),#fff 25%);
+  border-bottom-left-radius: 8px;
+  z-index: 10000;
+  pointer-events: auto;
+}
+
+.for-mobile .button-ZGMevK:hover{
+  background-color: #7289da;
+  box-shadow: 0 2px 0 #3a4e8c;
+}
+.for-mobile .spacer-1rBaoF{
+  line-height: 1.15px;
+  width: 100%;
+  height: 1px;
+  background: #ebedef;
+  margin-top: 24px;
+  margin-bottom: 16px;
+
 }
