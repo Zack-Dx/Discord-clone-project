@@ -41,13 +41,32 @@ document.querySelectorAll(".download-button").forEach((btn) => {
 
 function switchMode() {
   let moon = document.getElementById("moon");
+  let hangOut = document.getElementById("hang-out");
   if (moon.className == "moon") {
     moon.className = "sun";
     document.body.style.backgroundColor = "#141D26";
     document.body.style.color = "#fff";
+    hangOut.style.backgroundColor = "#141D26";
   } else {
     moon.className = "moon";
     document.body.style.backgroundColor = "#fff";
     document.body.style.color = "#000";
+    hangOut.style.backgroundColor = "#f6f6f6";
   }
 }
+
+
+let hamburger = document.querySelector('.hamburger');
+let close = document.querySelector('.close');
+let menu = document.querySelector('.menu');
+let hidden = document.querySelector('.hidden');
+
+hamburger.addEventListener('click',function(e){
+  menu.classList.add('show');
+  hidden.style.display = 'flex';
+})
+
+close.addEventListener('click',function(e){
+  menu.classList.remove('show');
+  hidden.style.display = 'none';
+})
