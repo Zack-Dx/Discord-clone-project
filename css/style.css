@@ -154,6 +154,7 @@ p{
   /* height: 90vw; */
   height: 59vh;
   display: flex;
+  animation: scrollbtn .3s;
 }
 .content1{
   background-color: transparent;
@@ -1067,6 +1068,7 @@ footer .footer-nav h5 {
   border: none;
   outline: none;
   cursor: pointer;
+  animation: scrollbtn .3s;
 }
 
 #btnScrollToTop:active {
