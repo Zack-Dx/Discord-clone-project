@@ -71,6 +71,8 @@ close.addEventListener('click',function(e){
   hidden.style.display = 'none';
 })
 
+const sections = document.querySelectorAll('.container_animate');
+
 function sectionObserverCallback(entries, observer) {
   entries.forEach(entry => {
     if (!entry.isIntersecting) return;
