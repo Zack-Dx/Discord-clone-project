@@ -199,6 +199,7 @@ nav ul li a:hover {
   margin: auto;
   height: 350px;
   color: white;
+  align-items: center;
 }
 
 .section1 h1 {
@@ -214,6 +215,7 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 40px;
   font-size: 20px;
+  max-width: 780px;
 }
 
 .shoe {
