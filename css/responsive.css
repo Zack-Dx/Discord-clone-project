@@ -85,6 +85,198 @@
     align-items: center;
     justify-content: center;
   }
+  .content1{
+    background-color: transparent;
+    position: relative;
+    height: 82.3vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title_nav{
+    width: 450px;
+    position: relative;
+    top: 22%;
+    left: 13%;
+  }
+  .title_nav h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.2rem;
+    color: white;
+  }
+  .title_nav h3{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    width: 500px;
+    color: white;
+    margin-top: 30px;
+  }
+  .nav_buttons{
+    background-color: transparent;
+    position: relative;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    /* width: 20vw; */
+    position: relative;
+    top: 27%;
+    left: 13%;
+  }
+  .for_windows{
+    height: 8.2vh;
+    border-radius: 20px;
+    padding:15px ;
+    background-color: #5865f2;
+    border: none;
+  }
+  .download_nav_img{
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  .ios_container{
+    background-color: #f6f6f6;
+    height: 600px;
+    width: 35%;
+    position: relative;
+    top: 65%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .for_ios{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 13%;
+    left: 34%;
+  }
+  .android_container{
+    background-color: #f6f6f6;
+    height: 600px;
+    width: 35%;
+    position: relative;
+    top: 0%;
+    left: 51.5%;
+    margin-bottom: 0%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .for_and{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 14%;
+    left: 36.5%;
+  }
+  .linux_container{
+    background-color: #f6f6f6;
+    height: 600px;
+    width: 35%;
+    position: relative;
+    top: -21%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .for_linux{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 13%;
+    left: 32%;
+    z-index: 10;
+  }
+  .linux_img{
+    width: 65%;
+    position: relative;
+    top: 30%;
+    left: 17%;
+  }
+  .mac_container{
+    background-color: #f6f6f6;
+    height: 600px;
+    width: 35%;
+    position: relative;
+    top: -86%;
+    left: 51.5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .for_mac{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 14%;
+    left: 34%;
+    z-index: 10;
+  }
+  .public_test_container{
+    background-color: #f6f6f6;
+    height: 320px;
+    width: 35%;
+    position: relative;
+    top: -115%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .public_test_container h2{
+    font-size: 2.2rem;
+  }
+  .pt_btn{
+    height: 8vh;
+    width: 23vw;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  .footer_downloads{
+    background-color: #23272a;
+    position: relative;
+    top: -110%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .sozial a,.social i{
+    font-size: 25px;
+    color: white;
+  }
 
   /* LAST SECTION ENDS */
 }
@@ -109,6 +301,251 @@
   .read {
     font-size: 0.75rem;
     padding: 0.5rem;
+  }
+
+  .content1{
+    background-color: transparent;
+    position: relative;
+    height: 82.3vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title_nav{
+    width: 450px;
+    position: relative;
+    top: 22%;
+    left: 9%;
+  }
+  .title_nav h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: white;
+  }
+  .title_nav h3{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    width: 450px;
+    color: white;
+    margin-top: 30px;
+  }
+  .nav_buttons{
+    background-color: transparent;
+    position: relative;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    /* width: 20vw; */
+    position: relative;
+    top: 27%;
+    left: 9%;
+  }
+  .for_windows{
+    height: 8.2vh;
+    border-radius: 20px;
+    padding:15px ;
+    background-color: #5865f2;
+    border: none;
+  }
+  .for_windows_links{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-family:  Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+  }
+  .content2{
+    background-color: transparent;
+    position: relative;
+    height: 82.3vh;
+    width: 50%;
+    overflow: hidden;
+  }
+  .download_nav_img{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 15px;
+  }
+  .ios_container{
+    background-color: #f6f6f6;
+    height: 550px;
+    width: 35%;
+    position: relative;
+    top: 55%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .for_ios{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 13%;
+    left: 30%;
+  }
+  .android_container{
+    background-color: #f6f6f6;
+    height: 550px;
+    width: 35%;
+    position: relative;
+    top: -10%;
+    left: 51.5%;
+    margin-bottom: 0%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .and_title{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 11%;
+    left: 35.5%;
+  }
+  .for_and{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 14%;
+    left: 32%;
+  }
+  .linux_container{
+    background-color: #f6f6f6;
+    height: 600px;
+    width: 35%;
+    position: relative;
+    top: -22%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .linux_title{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 11%;
+    left: 38%;
+  }
+  .for_linux{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 13%;
+    left: 29%;
+    z-index: 10;
+  }
+  .linux_img{
+    width: 65%;
+    position: relative;
+    top: 30%;
+    left: 18%;
+  }
+  .mac_container{
+    background-color: #f6f6f6;
+    height: 600px;
+    width: 35%;
+    position: relative;
+    top: -94%;
+    left: 51.5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .mac_title{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 11%;
+    left: 43%;
+  }
+  .for_mac{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 14%;
+    left: 30%;
+    z-index: 10;
+  }
+  .mac_img{
+    width: 75%;
+    position: relative;
+    top: 32%;
+    left: 14%;
+  }
+  .public_test_container{
+    background-color: #f6f6f6;
+    height: 320px;
+    width: 35%;
+    position: relative;
+    top: -113%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .public_test_container h2{
+    font-size: 2.2rem;
+  }
+  .pt_btn{
+    height: 8vh;
+    width: 23vw;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  .sozial{
+    background-color: transparent;
+    position: relative;
+    left: 10%;
+    height: 7vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .sozial a,.social i{
+    font-size: 25px;
+    color: white;
+  }
+  .footer_title_row1{
+    background-color: transparent;
+    position: relative;
+    top: 10%;
+    left: 2%;
+    height: 40vh;
+    width: 20vw;
   }
   /* TOP BAR ENDS */
 
@@ -214,6 +651,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  /* body{
+    overflow: hidden;
+  } */
   .section1 {
     justify-content: flex-start;
     padding: 1rem 2rem;
@@ -239,4 +679,317 @@
     font-size: 14px;
     margin-top: 18px;
   }
+  .content2{
+    display: none;
+  }
+  .content1{
+    background-color: transparent;
+    position: relative;
+    height: 82.3vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+  .title_nav{
+    width: 520px;
+    position: relative;
+    top: 22%;
+    left: 14%;
+  }
+  .title_nav h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+  }
+  .title_nav h3{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    width: 500px;
+    color: white;
+    margin-top: 30px;
+  }
+  .nav_buttons{
+    background-color: transparent;
+    position: relative;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    position: relative;
+    top: 27%;
+    left: 20%;
+  }
+  .for_windows{
+    height: 8.5vh;
+    border-radius: 20px;
+    padding:17px ;
+    background-color: #5865f2;
+    border: none;
+  }
+  .for_windows_links{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-family:  Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+  }
+  .ios_container{
+    background-color: #f6f6f6;
+    height: 355px;
+    width: 70%;
+    position: relative;
+    top: 45%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .ios_title{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 11%;
+    left: 44%;
+  }
+  .for_ios{
+    height: 57px;
+    width: 160px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 13%;
+    left: 30%;
+  }
+  .android_container{
+    background-color: #f6f6f6;
+    height: 355px;
+    width: 70%;
+    position: relative;
+    top: 45%;
+    left: 14%;
+    margin-bottom: 0%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .and_title{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 11%;
+    left: 35.5%;
+  }
+  .for_and{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: 14%;
+    left: 32%;
+  }
+  .linux_container{
+    background-color: #f6f6f6;
+    height: 355px;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .linux_title{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 11%;
+    left: 38%;
+  }
+  .for_linux{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: -16%;
+    left: 29%;
+    z-index: 10;
+  }
+  .linux_img{
+    width: 45%;
+    position: relative;
+    top: 43%;
+    left: -13%;
+  }
+  .mac_container{
+    background-color: #f6f6f6;
+    height: 355px;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .mac_title{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 11%;
+    left: 43%;
+  }
+  .for_mac{
+    height: 57px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    /* text-decoration: none; */
+    border-radius: 20px;
+    position: relative;
+    top: -14%;
+    left: 32%;
+    z-index: 10;
+  }
+  .mac_img{
+    width: 57%;
+    position: relative;
+    top: 44%;
+    left: -15%;
+  }
+  .public_test_container{
+    background-color: #f6f6f6;
+    height: 290px;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 14%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .public_test_container h2{
+    font-size: 2.2rem;
+  }
+  .pt_btn{
+    height: 8vh;
+    width: 55vw;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  .footer_downloads{
+  background-color: #23272a;
+  position: relative;
+  top: -140%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_title_row1{
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 7%;
+  height: 40vh;
+  width: 20vw;
+}
+.imagine{
+  font-family: "Montserrat", sans-serif;
+  width: 250px;
+  font-size: 2.4rem;
+  color: #5865f2;
+  position: relative;
+  left: 10%;
+}
+.sozial{
+  background-color: transparent;
+  position: relative;
+  left: 10%;
+  height: 7vh;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sozial a,.social i{
+  font-size: 30px;
+  color: white;
+}
+.footer_title_row2{
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 12%;
+  height: 40vh;
+  width: 16vw;
+}
+.row_1_title{
+  font-size: 22px;
+  font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #5865f2;
+}
+.row_2_title{
+  font-size: 22px;
+  font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #5865f2;
+}
+.row_3_title{
+  font-size: 22px;
+  font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #5865f2;
+}
+.r1_content{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  justify-content: space-between;
+  height: 12vh;
+  color:white ;
+}
+.r2_content{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  justify-content: space-between;
+  height: 17vh;
+  color:white ;
+}
+.r3_content{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  justify-content: space-between;
+  height: 33vh;
+  color:white ;
+}
+.footer_downloads{
+  display: none;
+}
 }
