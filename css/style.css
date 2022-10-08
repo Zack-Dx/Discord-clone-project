@@ -134,6 +134,19 @@ p{
   width: 100%;
   z-index: 1;
 }
+.stars-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  position: absolute;
+  width: 100%;
+  margin: auto 0px;
+}
+.stars-container img {
+  width: 50%;
+  margin: auto;
+  margin-top: -15px;
+}
 
 .nav_content{
   background-color: transparent;
@@ -141,6 +154,7 @@ p{
   /* height: 90vw; */
   height: 59vh;
   display: flex;
+  animation: scrollbtn .3s;
 }
 .content1{
   background-color: transparent;
