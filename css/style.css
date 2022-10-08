@@ -31,6 +31,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -128,11 +129,16 @@ p{
   z-index: 1;
 }
 .container1 {
-  background: #23272a;
+  /* background: #23272a; */
   height: 740px;
   position: relative;
   width: 100%;
   z-index: 1;
+}
+
+.hero-section{
+  height: 100%;
+  background: #23272a;
 }
 
 .nav_content{
@@ -211,17 +217,19 @@ p{
   height: 600px;
   width: 35%;
   position: relative;
-  top: 45%;
+  /* top: 45%; */
   left: 14%;
   margin-bottom: 5%;
   border-radius: 15px;
-  /* display: flex; */
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   overflow: hidden;
 }
 .ios_title{
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
+  width: fit-content;
   position: relative;
   top: 11%;
   left: 45%;
@@ -257,13 +265,15 @@ p{
   height: 600px;
   width: 35%;
   position: relative;
-  top: -15%;
+  /* top: -15%; */
   left: 51.5%;
   margin-bottom: 0%;
   border-radius: 15px;
   /* display: flex; */
   flex-direction: column;
   overflow: hidden;
+  transform: translateY(-45%);
+
 }
 .and_title{
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -296,13 +306,14 @@ p{
   height: 600px;
   width: 35%;
   position: relative;
-  top: -44%;
+  /* top: -44%; */
   left: 14%;
   margin-bottom: 5%;
   border-radius: 15px;
   /* display: flex; */
   flex-direction: column;
   overflow: hidden;
+  transform: translateY(-90%);
 }
 
 .linux_title{
@@ -337,13 +348,14 @@ p{
   height: 600px;
   width: 35%;
   position: relative;
-  top: -104%;
+  /* top: -104%; */
   left: 51.5%;
   margin-bottom: 5%;
   border-radius: 15px;
   /* display: flex; */
   flex-direction: column;
   overflow: hidden;
+  transform: translateY(-140%);
 }
 .mac_title{
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -376,13 +388,14 @@ p{
   height: 320px;
   width: 35%;
   position: relative;
-  top: -144%;
+  /* top: -144%; */
   left: 14%;
   margin-bottom: 5%;
   border-radius: 15px;
   /* display: flex; */
   flex-direction: column;
   overflow: hidden;
+  transform: translateY(-380%);
 }
 .public_test_container h2{
   font-family: 'Playfair Display', serif;;
@@ -418,7 +431,7 @@ p{
 .footer_downloads{
   background-color: #23272a;
   position: relative;
-  top: -140%;
+  /* top: 250%; */
   height: 50vh;
   display: flex;
   flex-direction: row;

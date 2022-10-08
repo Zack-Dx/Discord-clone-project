@@ -139,13 +139,14 @@
     height: 600px;
     width: 35%;
     position: relative;
-    top: 65%;
+    /* top: 65%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
     flex-direction: column;
     overflow: hidden;
+    transform: none;
   }
   .for_ios{
     height: 57px;
@@ -163,13 +164,14 @@
     height: 600px;
     width: 35%;
     position: relative;
-    top: 0%;
+    /* top: 0%; */
     left: 51.5%;
     margin-bottom: 0%;
     border-radius: 15px;
     /* display: flex; */
     flex-direction: column;
     overflow: hidden;
+    transform: translateY(10px);
   }
   .for_and{
     height: 57px;
@@ -187,13 +189,14 @@
     height: 600px;
     width: 35%;
     position: relative;
-    top: -21%;
+    /* top: -21%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
     flex-direction: column;
     overflow: hidden;
+    transform: translateY(40px);
   }
   .for_linux{
     height: 57px;
@@ -218,13 +221,14 @@
     height: 600px;
     width: 35%;
     position: relative;
-    top: -86%;
+    /* top: -86%; */
     left: 51.5%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
     flex-direction: column;
     overflow: hidden;
+    transform: translateY(50px);
   }
   .for_mac{
     height: 57px;
@@ -243,13 +247,14 @@
     height: 320px;
     width: 35%;
     position: relative;
-    top: -115%;
+    /* top: -115%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
     /* display: flex; */
     flex-direction: column;
     overflow: hidden;
+    transform: translateY(50px);
   }
   .public_test_container h2{
     font-size: 2.2rem;
@@ -268,7 +273,7 @@
   .footer_downloads{
     background-color: #23272a;
     position: relative;
-    top: -110%;
+    /* top: -110%; */
     height: 50vh;
     display: flex;
     flex-direction: row;
@@ -371,7 +376,7 @@
     height: 550px;
     width: 35%;
     position: relative;
-    top: 55%;
+    /* top: 55%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -395,7 +400,7 @@
     height: 550px;
     width: 35%;
     position: relative;
-    top: -10%;
+    /* top: -10%; */
     left: 51.5%;
     margin-bottom: 0%;
     border-radius: 15px;
@@ -426,7 +431,7 @@
     height: 600px;
     width: 35%;
     position: relative;
-    top: -22%;
+    /* top: -22%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -464,7 +469,7 @@
     height: 600px;
     width: 35%;
     position: relative;
-    top: -94%;
+    /* top: -94%; */
     left: 51.5%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -502,7 +507,7 @@
     height: 320px;
     width: 35%;
     position: relative;
-    top: -113%;
+    /* top: -113%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -710,6 +715,12 @@
     top: 22%;
     left: 14%;
   }
+
+  .content1 .title_nav{
+    width: 100vw;
+  }
+
+
   .title_nav h2{
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
@@ -718,7 +729,7 @@
   .title_nav h3{
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 1rem;
-    width: 500px;
+    width: 90vw;
     color: white;
     margin-top: 30px;
   }
@@ -727,12 +738,16 @@
     position: relative;
     height: 15vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 80vw;
     position: relative;
     top: 27%;
     left: 20%;
+
   }
+
+
+  
   .for_windows{
     height: 8.5vh;
     border-radius: 20px;
@@ -752,7 +767,7 @@
     height: 355px;
     width: 70%;
     position: relative;
-    top: 45%;
+    /* top: 45%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -783,7 +798,7 @@
     height: 355px;
     width: 70%;
     position: relative;
-    top: 45%;
+    /* top: 45%; */
     left: 14%;
     margin-bottom: 0%;
     border-radius: 15px;
@@ -814,7 +829,7 @@
     height: 355px;
     width: 70%;
     position: relative;
-    top: 50%;
+    /* top: 50%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -852,7 +867,7 @@
     height: 355px;
     width: 70%;
     position: relative;
-    top: 50%;
+    /* top: 50%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -875,7 +890,7 @@
     /* text-decoration: none; */
     border-radius: 20px;
     position: relative;
-    top: -14%;
+    top: 14%;
     left: 32%;
     z-index: 10;
   }
@@ -883,14 +898,14 @@
     width: 57%;
     position: relative;
     top: 44%;
-    left: -15%;
+    left: 15%;
   }
   .public_test_container{
     background-color: #f6f6f6;
     height: 290px;
     width: 70%;
     position: relative;
-    top: 50%;
+    /* top: 50%; */
     left: 14%;
     margin-bottom: 5%;
     border-radius: 15px;
@@ -915,7 +930,7 @@
   .footer_downloads{
   background-color: #23272a;
   position: relative;
-  top: -140%;
+  /* top: 250%; */
   height: 50vh;
   display: flex;
   flex-direction: row;
@@ -1002,19 +1017,22 @@
   height: 33vh;
   color:white ;
 }
-.footer_downloads{
-  display: none;
-}
+
 }
 
 @media screen and (max-width:800px) {
   body{
     overflow-x: hidden;
   }
+
+  .logo > *{
+    width: 100px;
+    height: 25px;
+  }
   
 
  .menu{
-    display:non;
+    display:relative;
     flex-direction: column;
     height:100vh;
     width:300px;
@@ -1027,6 +1045,7 @@
     border-radius: 10px 0 0 10px;
     transform:translateX(100%);
     transition: all .5s;
+    z-index: 1;
   }
 
   .menu.show{

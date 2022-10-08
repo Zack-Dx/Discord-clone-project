@@ -57,35 +57,65 @@ function switchMode() {
 
 
 let hamburger = document.querySelector('.hamburger');
+let downloadHam = document.querySelector('#ham');
 let close = document.querySelector('.close');
+let downloadClose = document.querySelector('#close');
 let menu = document.querySelector('.menu');
 let hidden = document.querySelector('.hidden');
 
-hamburger.addEventListener('click',function(e){
+hamburger.addEventListener('click', function (e) {
   menu.classList.add('show');
   hidden.style.display = 'flex';
 })
 
-close.addEventListener('click',function(e){
+
+
+function openHam() {
+
+  let downloadHam = document.querySelector('#ham');
+  let close = document.querySelector('.close');
+  let menu = document.querySelector('.menu');
+  let hidden = document.querySelector('.hidden');
+
+  downloadHam.addEventListener('click', function (e) {
+    menu.classList.add('show');
+    hidden.style.display = 'flex';
+  })
+}
+
+function closeHam() {
+
+  let downloadClose = document.querySelector('#close');
+  let close = document.querySelector('.close');
+  let menu = document.querySelector('.menu');
+  let hidden = document.querySelector('.hidden');
+
+  downloadClose.addEventListener('click', function (e) {
+    menu.classList.remove('show');
+    hidden.style.display = 'none';
+  })
+}
+
+close.addEventListener('click', function (e) {
   menu.classList.remove('show');
   hidden.style.display = 'none';
 })
 
 function download(x) {
-  if(x === "Windows"){
+  if (x === "Windows") {
     window.open("https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86");
   }
-  else if(x === "Linux"){
+  else if (x === "Linux") {
     // Tar.gz file is also available, but for that the UI should be updated too asking the uer if they want deb or tar.gz file.
     window.open("https://discord.com/api/download?platform=linux&format=deb");
   }
-  else if(x === "Mac"){
+  else if (x === "Mac") {
     window.open("https://discord.com/api/download?platform=osx");
   }
-  else if(x === "Android"){
+  else if (x === "Android") {
     window.open("https://play.google.com/store/apps/details?id=com.discord&fingerprint=1027469448279502868.2VFuFt_ihJGrFuSoSXuvQSQyBwc&attemptId=be670576-d546-4f16-9fe4-e99ede451454")
   }
-  
+
 }
 
 function setDevice() {
