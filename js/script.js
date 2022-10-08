@@ -69,12 +69,7 @@ hamburger.addEventListener('click',function(e){
 close.addEventListener('click',function(e){
   menu.classList.remove('show');
   hidden.style.display = 'none';
-<<<<<<< HEAD
 });
-
-
-=======
-})
 
 function download(x) {
   if(x === "Windows"){
@@ -101,4 +96,3 @@ function setDevice() {
 }
 
 setDevice();
->>>>>>> master
