@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 @font-face {
   font-family: "Ginto Nord";
@@ -37,12 +36,17 @@ body {
 body {
   transition: 1.5s;
 }
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
 
 .night-toggle {
   width: 33px;
-  right: 3.5%;
-  position: absolute;
-  padding-left: 15%;
+  right: 25px;
+  position: sticky;
+  padding-left: 25px;
 }
 
 .night-toggle:hover {
@@ -54,7 +58,7 @@ body {
   box-shadow: -6px 1px 0 3px #f4fcfc;
   border-left: 3px solid #3a4042;
   border-radius: 50%;
-  width: 20px;
+  width: 30px;
   height: 20px;
   margin-left: 8px;
   margin-top: 0px;
@@ -130,6 +134,19 @@ body {
   width: 100%;
   z-index: 1;
 }
+.stars-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  position: absolute;
+  width: 100%;
+  margin: auto 0px;
+}
+.stars-container img {
+  width: 50%;
+  margin: auto;
+  margin-top: -15px;
+}
 
 .nav_content{
   background-color: transparent;
@@ -137,6 +154,7 @@ body {
   /* height: 90vw; */
   height: 59vh;
   display: flex;
+  animation: scrollbtn .3s;
 }
 .content1{
   background-color: transparent;
@@ -166,7 +184,7 @@ body {
 .title_nav h3{
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
-  width: 700px;
+  width: 580px;
   color: white;
   margin-top: 30px;
 }
@@ -193,11 +211,10 @@ body {
   font-size: 1.3rem;
   color: white;
   font-family:  Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
 }
 .nv_btn_h3{
   margin-top: 2%;
-  margin-left: 5%;
   color: white;
   font-weight: 100;
 }
@@ -514,11 +531,13 @@ body {
   position: absolute;
 }
 
+
 nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
+    margin-bottom: 2rem;
 }
 
 nav ul, .wrapper {
@@ -543,6 +562,17 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 10%;
+}
+.elements-nav{
+    margin-right:20px;
+    color: #fff;
+    
+}
+.elements-nav:hover{
+  font-weight: 600;
+  transition: ease-in-out;
+  text-shadow: 0 0 5px #6b6b7d;
+  text-decoration: underline;
 }
 
 .wrapper {
@@ -587,7 +617,7 @@ nav ul li a:hover {
   padding: 12px 16px;
   background-color: white;
   font-size: 0.8rem;
-  border: 0;
+  border: 00;
   outline: none;
   cursor: pointer;
 }
@@ -595,8 +625,8 @@ nav ul li a:hover {
 .discord:hover {
   box-shadow: 0px 4px 5px 0px rgba(44, 43, 43, 0.71);
   transition: 0.2s;
-  transition-timing-function: ease-in-out;
-  color: #404eed;
+  transition-timing-function: ease;
+  color: #6773ed;
 }
 
 .section1 {
@@ -673,7 +703,7 @@ nav ul li a:hover {
 .download-button {
   padding: 16px 32px;
   border-radius: 28px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   background-color: #fff;
   color: #000;
@@ -700,7 +730,7 @@ nav ul li a:hover {
 .browser-button {
   padding: 16px 32px;
   border-radius: 28px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   background-color: #23272a;
   color: #fff;
@@ -767,6 +797,7 @@ nav ul li a:hover {
 .box2 p {
   font-family: "Whitney Regular";
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .container3 {
@@ -793,6 +824,7 @@ nav ul li a:hover {
 .box3 p {
   font-family: "Whitney Regular";
   font-size: 20px;
+  line-height: 1.625;
 }
 
 .container4 {
@@ -824,6 +856,7 @@ nav ul li a:hover {
 .box4 p {
   font-size: 20px;
   font-family: "Whitney Regular";
+  line-height: 1.625;
 }
 
 .box4 h2 {
@@ -831,11 +864,6 @@ nav ul li a:hover {
   padding-right: 75px;
   padding-bottom: 40px;
   font-family: "Whitney Bold";
-}
-
-
-.container5 {
-  background-color: #f6f6f6;
 }
 
 
@@ -854,7 +882,7 @@ nav ul li a:hover {
 
 .box5 p {
   margin-top: 2%;
-  line-height: 25px;
+  line-height: 1.625;
   font-size: 20px;
   font-family: "Whitney Regular";
 }
@@ -980,7 +1008,7 @@ footer .footer-nav h5 {
   max-width: 1180px;
 }
 
-.footer-bar>img {
+.footer-bar> img{
   width: 124px;
   height: 40px;
 }
@@ -996,8 +1024,11 @@ footer .footer-nav h5 {
   background-color: #5865f2;
   font-weight: 500;
   height: 38px;
+  transition: 0.5s;
 }
-
+.footer-bar a:hover {
+  background-color: #787fe9;
+}
 #country {
   background-color: #23272a;
   color: #fff;
@@ -1046,6 +1077,7 @@ footer .footer-nav h5 {
   border: none;
   outline: none;
   cursor: pointer;
+  animation: scrollbtn .3s;
 }
 
 #btnScrollToTop:active {
@@ -1059,4 +1091,18 @@ footer .footer-nav h5 {
 .wrapper .hamburger{
   width:40px;
 display:none
+}
+p {
+  line-height: 2rem;
+  
+}
+
+@keyframes scrollbtn {
+  from {
+    transform: translateY(2rem);
+  }
+
+  to {
+    transform: none;
+  }
 }

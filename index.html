@@ -23,7 +23,7 @@
   <header class="navbox">
     <div class="box1">
       <img src="./img/disxbox.png" alt="" />
-      <p>Discord Voice is on Xbox! <span>It's finally here…</span></p>
+      <p><span>Discord Voice is on Xbox! It's finally here…</span></p>
 
       <button class="read">Read More</button>
     </div>
@@ -73,24 +73,24 @@
       <div class=".spacer-1rBaoF"><hr class="for-mobile" noshade style="margin-top: 15px"size="2px"></div>  
       <ul>
         
-        <li><a href="index.html">Home</a>
-        <li><a href="download.html">Download</a></li>
-        <li><a href="#">Nitro</a></li>
-        <li><a href="#">Discover</a></li>
-        <li><a href="#">Safety</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Careers</a></li>
+      <span class="elements-nav"><li class="menu-hov" onclick="window.location.href='index.html';">Home</li></span>
+       <span class="elements-nav" > <li class="menu-hov" onclick="window.location.href='download.html';"> Download</li></span>
+       <span class="elements-nav"><li class="menu-hov" onclick="window.location.href='#';">Nitro</li></span> 
+        <span class="elements-nav"><li class="menu-hov" onclick="window.location.href='#';">Discover</li></span>
+        <span class="elements-nav"><li class="menu-hov" onclick="window.location.href='#';">Safety</li></span>
+        <span class="elements-nav"><li class="menu-hov" onclick="window.location.href='#';">Support</li></span>
+        <span class="elements-nav"><li class="menu-hov" onclick="window.location.href='#';">Blog</li></span>
+        <span class="elements-nav"><li class="menu-hov" onclick="window.location.href='#';">Careers</li></span>
       </ul>
       <section class="for-mobile">
       <button type="button" class="hidden"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
       </svg>
-      </svg>Download for Windows</button>
-      </section>
+      </svg>Download for <span class="deviceName"></span></button>
     </div>
     <div class="wrapper">
-      <button class="discord" onclick="location.href='https://discord.com/channels/@me';">Open Discord</button>
+     <a class="" href="https://discord.com/login"> <button class="discord" > Login</button></a>
+  
 
       <div class="night-toggle">
         <div class="moon" id="moon" onclick="switchMode()"></div>
@@ -111,12 +111,9 @@
         A place that makes it easy to talk every day and hang out more often.
       </p>
       <div class="buttons">
-        <a
-          href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
-          <button class="download-button main-btn">
-            <i class="fa-solid fa-arrow-down"></i> Download for Windows
+          <button class="download-button main-btn" onclick="download(Name)">
+            <i class="fa-solid fa-arrow-down"></i> Download for <span class="deviceName"></span>
           </button>
-        </a>
         <a href="https://discord.com/app">
         <button class="browser-button">Open Discord in browser</button>
       </a> 
@@ -180,13 +177,13 @@
       <img src="./img/container5.svg" alt="" />
     </div>
     <div class="box6">
+      <div class="stars-container">
+        <img src="./img/stars1.svg" />
+      </div>
       <h1>Ready to start your journey?</h1>
-      <a
-        href="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86">
-        <button class="download-button bottom-btn">
-          <i class="fa-solid fa-arrow-down"></i> Download for Windows
+        <button class="download-button bottom-btn" onclick="download(Name)">
+          <i class="fa-solid fa-arrow-down"></i> Download for <span class="deviceName"></span>
         </button>
-      </a>
     </div>
   </div>
 
@@ -199,11 +196,35 @@
         <div class="language">
           <img src="img/Flag-logo.png" />
           <select id="country">
-            <option value="English">English, USA</option>
-            <option value="Hindi">Hindi, India</option>
-            <option value="Polski">Polski, Poland</option>
-            <option value="French">French, France</option>
-            <option value="Kurdish">Kurdish, Turkey</option>
+            <option value="Bulgarian">български</option>
+            <option value="Czech">Čeština</option>
+            <option value="Danish">Dansk</option>
+            <option value="German">Deutsch</option>
+            <option value="Greek">Ελληνικά</option>
+            <option value="English" selected>English, USA</option>
+            <option value="Spanish">Español</option>
+            <option value="Finnish">Suomi</option>
+            <option value="French">Français</option>
+            <option value="Hindi">हिंदी</option>
+            <option value="Croatian">Hrvatski</option>
+            <option value="Hungarian">Magyar</option>
+            <option value="Italian">Italiano</option>
+            <option value="Japanese">日本語</option>
+            <option value="Korean">한국어</option>
+            <option value="Lithuanian">Lietuviškai</option>
+            <option value="Dutch">Nederlands</option>
+            <option value="Norwegian">Norwegian</option>
+            <option value="Polish">Polski</option>
+            <option value="Brazilian Portuguese">Português do Brasil</option>
+            <option value="Romanian">Română</option>
+            <option value="Russian">Русский</option>
+            <option value="Swedish">Svenska</option>
+            <option value="Thai">ไทย</option>
+            <option value="Turkish">Türkçe</option>
+            <option value="Ukrainian">Українська</option>
+            <option value="Vietnamese">Tiếng Việt</option>
+            <option value="Simplified Chinese">中文</option>
+            <option value="Traditional Chinese">繁體中文</option>
           </select>
         </div>
         <div class="links">
