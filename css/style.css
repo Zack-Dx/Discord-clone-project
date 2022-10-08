@@ -44,9 +44,9 @@ p{
 
 .night-toggle {
   width: 33px;
-  right: 3.5%;
-  position: absolute;
-  padding-left: 15%;
+  right: 25px;
+  position: sticky;
+  padding-left: 25px;
 }
 
 .night-toggle:hover {
@@ -58,7 +58,7 @@ p{
   box-shadow: -6px 1px 0 3px #f4fcfc;
   border-left: 3px solid #3a4042;
   border-radius: 50%;
-  width: 20px;
+  width: 30px;
   height: 20px;
   margin-left: 8px;
   margin-top: 0px;
@@ -605,7 +605,7 @@ nav ul li a:hover {
   padding: 12px 16px;
   background-color: white;
   font-size: 0.8rem;
-  border: 0;
+  border: 00;
   outline: none;
   cursor: pointer;
 }
@@ -613,8 +613,8 @@ nav ul li a:hover {
 .discord:hover {
   box-shadow: 0px 4px 5px 0px rgba(44, 43, 43, 0.71);
   transition: 0.2s;
-  transition-timing-function: ease-in-out;
-  color: #404eed;
+  transition-timing-function: ease;
+  color: #6773ed;
 }
 
 .section1 {
