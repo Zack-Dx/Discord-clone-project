@@ -1,0 +1,15 @@
+.container{
+    max-width: 126rem;
+    margin-inline: auto;
+    padding-inline: var(--page-gutter);
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(var(--number-of-columns), 1fr);
+    column-gap: 2rem;
+
+    &>*{
+        grid-column: span var(--number-of-columns);
+    }
+}
