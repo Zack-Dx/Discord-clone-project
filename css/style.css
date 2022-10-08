@@ -36,11 +36,9 @@ body {
 body {
   transition: 1.5s;
 }
-p{
-  font-family: 'Source Sans Pro', sans-serif;
-  
+p {
+  font-family: "Source Sans Pro", sans-serif;
 }
-
 
 .night-toggle {
   width: 33px;
@@ -67,7 +65,7 @@ p{
 
 .sun {
   background-color: #fdd462;
-  box-shadow: 2px 0px 0px 1px #D19C29;
+  box-shadow: 2px 0px 0px 1px #d19c29;
   border-radius: 50%;
   width: 26px;
   height: 26px;
@@ -148,15 +146,15 @@ p{
   margin-top: -15px;
 }
 
-.nav_content{
+.nav_content {
   background-color: transparent;
   position: relative;
   /* height: 90vw; */
   height: 59vh;
   display: flex;
-  animation: scrollbtn .3s;
+  animation: scrollbtn 0.3s;
 }
-.content1{
+.content1 {
   background-color: transparent;
   position: relative;
   height: 82.3vh;
@@ -164,31 +162,31 @@ p{
   display: flex;
   flex-direction: column;
 }
-.content2{
+.content2 {
   background-color: transparent;
   position: relative;
   height: 82.3vh;
   width: 50%;
 }
-.title_nav{
+.title_nav {
   width: 450px;
   position: relative;
   top: 22%;
   left: 21%;
 }
-.title_nav h2{
+.title_nav h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.7rem;
   color: white;
 }
-.title_nav h3{
+.title_nav h3 {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   width: 580px;
   color: white;
   margin-top: 30px;
 }
-.nav_buttons{
+.nav_buttons {
   background-color: transparent;
   position: relative;
   height: 15vh;
@@ -199,27 +197,27 @@ p{
   top: 27%;
   left: 20.7%;
 }
-.for_windows{
+.for_windows {
   height: 6vh;
   border-radius: 20px;
-  padding:15px ;
+  padding: 15px;
   background-color: #5865f2;
   border: none;
 }
-.for_windows_links{
+.for_windows_links {
   text-decoration: none;
   font-size: 1.3rem;
   color: white;
-  font-family:  Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-.nv_btn_h3{
+.nv_btn_h3 {
   margin-top: 2%;
   color: white;
   font-weight: 100;
 }
 
-.ios_container{
+.ios_container {
   background-color: #f6f6f6;
   height: 600px;
   width: 35%;
@@ -232,14 +230,14 @@ p{
   flex-direction: column;
   overflow: hidden;
 }
-.ios_title{
+.ios_title {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
   position: relative;
   top: 11%;
   left: 45%;
 }
-.for_ios{
+.for_ios {
   height: 57px;
   width: 150px;
   color: white;
@@ -250,22 +248,22 @@ p{
   top: 13%;
   left: 36.5%;
 }
-.for_ios_link{
+.for_ios_link {
   text-decoration: none;
   font-size: 1.3rem;
   color: white;
-  font-family:  Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 
-.ios_img{
+.ios_img {
   width: 75%;
   position: relative;
   top: 28%;
   left: 13%;
 }
 
-.android_container{
+.android_container {
   background-color: #f6f6f6;
   height: 600px;
   width: 35%;
@@ -278,14 +276,14 @@ p{
   flex-direction: column;
   overflow: hidden;
 }
-.and_title{
+.and_title {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
   position: relative;
   top: 11%;
   left: 40%;
 }
-.for_and{
+.for_and {
   height: 57px;
   width: 150px;
   color: white;
@@ -297,14 +295,14 @@ p{
   left: 37.7%;
 }
 
-.and_img{
+.and_img {
   width: 75%;
   position: relative;
   top: 28%;
   left: 13%;
 }
 
-.linux_container{
+.linux_container {
   background-color: #f6f6f6;
   height: 600px;
   width: 35%;
@@ -318,7 +316,7 @@ p{
   overflow: hidden;
 }
 
-.linux_title{
+.linux_title {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
   position: relative;
@@ -326,7 +324,7 @@ p{
   left: 40%;
 }
 
-.for_linux{
+.for_linux {
   height: 57px;
   width: 150px;
   color: white;
@@ -338,14 +336,14 @@ p{
   left: 34.5%;
   z-index: 10;
 }
-.linux_img{
+.linux_img {
   width: 65%;
   position: relative;
   top: 37%;
   left: -10%;
 }
 
-.mac_container{
+.mac_container {
   background-color: #f6f6f6;
   height: 600px;
   width: 35%;
@@ -358,14 +356,14 @@ p{
   flex-direction: column;
   overflow: hidden;
 }
-.mac_title{
+.mac_title {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
   position: relative;
   top: 11%;
   left: 44%;
 }
-.for_mac{
+.for_mac {
   height: 57px;
   width: 150px;
   color: white;
@@ -377,14 +375,14 @@ p{
   left: 36%;
   z-index: 10;
 }
-.mac_img{
+.mac_img {
   width: 75%;
   position: relative;
   top: 32%;
   left: 10%;
 }
 
-.public_test_container{
+.public_test_container {
   background-color: #f6f6f6;
   height: 320px;
   width: 35%;
@@ -397,26 +395,26 @@ p{
   flex-direction: column;
   overflow: hidden;
 }
-.public_test_container h2{
-  font-family: 'Playfair Display', serif;;
+.public_test_container h2 {
+  font-family: "Playfair Display", serif;
   font-size: 2.4rem;
   position: relative;
   top: 10%;
   left: 5%;
 }
-.public_test_container p{
+.public_test_container p {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   position: relative;
   top: 18%;
   left: 5%;
 }
-.public_test_btn{
+.public_test_btn {
   position: relative;
   top: 25%;
   left: 5%;
 }
-.pt_btn{
+.pt_btn {
   height: 7vh;
   width: 17vw;
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -428,7 +426,7 @@ p{
   cursor: pointer;
 }
 
-.footer_downloads{
+.footer_downloads {
   background-color: #23272a;
   position: relative;
   top: -140%;
@@ -437,7 +435,7 @@ p{
   flex-direction: row;
 }
 
-.footer_title_row1{
+.footer_title_row1 {
   background-color: transparent;
   position: relative;
   top: 10%;
@@ -445,7 +443,7 @@ p{
   height: 40vh;
   width: 20vw;
 }
-.imagine{
+.imagine {
   font-family: "Montserrat", sans-serif;
   width: 250px;
   font-size: 2.4rem;
@@ -453,7 +451,7 @@ p{
   position: relative;
   left: 10%;
 }
-.sozial{
+.sozial {
   background-color: transparent;
   position: relative;
   left: 10%;
@@ -464,11 +462,12 @@ p{
   justify-content: space-between;
   margin-top: 20px;
 }
-.sozial a,.social i{
+.sozial a,
+.social i {
   font-size: 30px;
   color: white;
 }
-.footer_title_row2{
+.footer_title_row2 {
   background-color: transparent;
   position: relative;
   top: 10%;
@@ -476,50 +475,50 @@ p{
   height: 40vh;
   width: 16vw;
 }
-.row_1_title{
+.row_1_title {
   font-size: 22px;
-  font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #5865f2;
 }
-.row_2_title{
+.row_2_title {
   font-size: 22px;
-  font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #5865f2;
 }
-.row_3_title{
+.row_3_title {
   font-size: 22px;
-  font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #5865f2;
 }
-.r1_content{
+.r1_content {
   list-style: none;
   display: flex;
   flex-direction: column;
   margin-top: 10%;
   justify-content: space-between;
   height: 12vh;
-  color:white ;
+  color: white;
 }
-.r2_content{
+.r2_content {
   list-style: none;
   display: flex;
   flex-direction: column;
   margin-top: 10%;
   justify-content: space-between;
   height: 17vh;
-  color:white ;
+  color: white;
 }
-.r3_content{
+.r3_content {
   list-style: none;
   display: flex;
   flex-direction: column;
   margin-top: 10%;
   justify-content: space-between;
   height: 33vh;
-  color:white ;
+  color: white;
 }
-.hor_line{
-  color:#5865f2 ;
+.hor_line {
+  color: #5865f2;
 }
 .container:before {
   content: "";
@@ -531,16 +530,16 @@ p{
   position: absolute;
 }
 
-
 nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
-nav ul, .wrapper {
+nav ul,
+.wrapper {
   display: flex;
 }
 
@@ -563,12 +562,11 @@ nav ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 10%;
 }
-.elements-nav{
-    margin-right:20px;
-    color: #fff;
-    
+.elements-nav {
+  margin-right: 20px;
+  color: #fff;
 }
-.elements-nav:hover{
+.elements-nav:hover {
   font-weight: 600;
   transition: ease-in-out;
   text-shadow: 0 0 5px #6b6b7d;
@@ -579,27 +577,27 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.hidden{
-  all:unset;
+.hidden {
+  all: unset;
   background-color: #3b4aee;
-  color:white;
-  padding:10px;
-  width:100%;
+  color: white;
+  padding: 10px;
+  width: 100%;
   text-align: center;
   border-radius: 15px;
-  display:none;
+  display: none;
   align-items: center;
   justify-content: center;
   margin-top: 160px;
 }
-.hidden:hover{
+.hidden:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   transform: scale(1.05);
 }
-.hidden svg{
-  color:white;
-  width:20px;
+.hidden svg {
+  color: white;
+  width: 20px;
   margin-right: 10px;
 }
 
@@ -680,11 +678,12 @@ nav ul li a:hover {
 .dino {
   position: absolute;
   height: 318px;
-  width: 290px;
   right: 0%;
   bottom: 0%;
   pointer-events: none;
   overflow: hidden;
+  left: 50%;
+  margin-left: 370px;
 }
 
 .buttons {
@@ -715,7 +714,6 @@ nav ul li a:hover {
   border: none;
   transition-duration: 0.2s;
 }
-
 
 .main-btn:hover {
   color: #3b4aee;
@@ -760,7 +758,7 @@ nav ul li a:hover {
   transition: 00.2s;
 }
 
-.download_nav_img{
+.download_nav_img {
   width: 720px;
   margin-top: 140px;
   margin-left: 50px;
@@ -865,7 +863,6 @@ nav ul li a:hover {
   padding-bottom: 40px;
   font-family: "Whitney Bold";
 }
-
 
 .box5 {
   text-align: center;
@@ -1008,7 +1005,7 @@ footer .footer-nav h5 {
   max-width: 1180px;
 }
 
-.footer-bar> img{
+.footer-bar > img {
   width: 124px;
   height: 40px;
 }
@@ -1077,24 +1074,23 @@ footer .footer-nav h5 {
   border: none;
   outline: none;
   cursor: pointer;
-  animation: scrollbtn .3s;
+  animation: scrollbtn 0.3s;
 }
 
 #btnScrollToTop:active {
   background: rgb(114, 93, 183);
 }
 
-.for-mobile{
-  display:none;
+.for-mobile {
+  display: none;
 }
 
-.wrapper .hamburger{
-  width:40px;
-display:none
+.wrapper .hamburger {
+  width: 40px;
+  display: none;
 }
 p {
   line-height: 2rem;
-  
 }
 
 @keyframes scrollbtn {
