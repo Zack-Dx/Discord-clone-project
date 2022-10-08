@@ -69,4 +69,6 @@ hamburger.addEventListener('click',function(e){
 close.addEventListener('click',function(e){
   menu.classList.remove('show');
   hidden.style.display = 'none';
-})
+});
+
+
