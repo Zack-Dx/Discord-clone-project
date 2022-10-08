@@ -76,20 +76,29 @@ li{
     display:none;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap:20px;
     background-color: white;
     position: absolute;
     top:50px;
     right:-90px;
     width:200px;
     border-radius: 7px;
-    padding:20px;
+    padding:20px 0;
 }
 
+.languages li{
+    padding:10px 20px;
+}
+
+.languages li:hover{
+    background-color: rgb(236, 233, 233);
+}
 .menu a,
 .sign-in{
     font-size: .9rem;
+}
+
+.languages a{
+    color:black;
 }
 
 .sign-in{
@@ -394,7 +403,7 @@ footer hr{
     position: fixed;
     bottom:30px;
     right:30px;
-    display:none;
+    display:block;
 }
 
 .pop{
