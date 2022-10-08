@@ -22,6 +22,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Download Discord to Talk, Chat, and Hang Out</title>
   </head>
   <body>
@@ -94,7 +95,7 @@
           </div>
           </nav>
 
-            <div class="nav_content">
+            <div class="nav_content" data-aos="fade-left">
                 <div class="content1">
                     <div class="title_nav">
                         <h2>GET DISCORD FOR ANY DEVICE</h2>
@@ -114,7 +115,7 @@
             </div>
 
 
-            <div class="ios_container">
+            <div class="ios_container" data-aos="fade-up" data-aos-delay="200">
                 <h1 class="ios_title">iOS</h1>
 
                 <button class="for_ios"><a href="https://discordapp.page.link/?link=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fdiscord-chat-for-games%2Fid985746746%3Ffingerprint%3D1027516877779501056.nmsrsOn-u71GihW3QMMoAU634IE%26attemptId%3D08b3b24d-4064-43f8-b714-323b2f24a54b&utm_source=download&apn=com.discord&isi=985746746&ibi=com.hammerandchisel.discord&sd=Your%20place%20to%20talk%20with%20communities%20and%20friends.&efr=1" class="for_ios_link">Download</a></button>
@@ -122,7 +123,7 @@
                 <img src="./img/7802f24afe58bfbf4cfd3a9e4b210f15-removebg-preview.png" alt="" class="ios_img">
             </div>
 
-            <div class="android_container">
+            <div class="android_container" data-aos="fade-up" data-aos-delay="200">
                 <h1 class="and_title">Android</h1>
 
                 <button class="for_and"><a href="#" class="for_ios_link">Download</a></button>
@@ -130,7 +131,7 @@
                 <img src="./img/fbeecd9630673fad538917f2c33a8f62-removebg-preview.png" alt="https://discordapp.page.link/?link=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.discord%26fingerprint%3D1027516877779501056.nmsrsOn-u71GihW3QMMoAU634IE%26attemptId%3D5c9e4782-bf33-4c5c-a222-eb2021ac7367&utm_source=download&apn=com.discord&isi=985746746&ibi=com.hammerandchisel.discord&sd=Your%20place%20to%20talk%20with%20communities%20and%20friends.&efr=1" class="and_img">
             </div>
 
-            <div class="linux_container">
+            <div class="linux_container" data-aos="fade-up" data-aos-delay="200">
                 <h1 class="linux_title">Linux</h1>
 
                 <button class="for_linux"><a href="https://discord.com/api/download?platform=linux&format=deb" class="for_ios_link">Download</a></button>
@@ -138,7 +139,7 @@
                 <img src="./img/48930d53ee497513a0ee4c3c1ae7b3cb.png" alt="#" class="linux_img">
             </div>
 
-            <div class="mac_container">
+            <div class="mac_container" data-aos="fade-up" data-aos-delay="200">
                 <h1 class="mac_title">Mac</h1>
 
                 <button class="for_mac"><a href="https://discord.com/api/download?platform=osx" class="for_ios_link">Download</a></button>
@@ -146,7 +147,7 @@
                 <img src="./img/aaef6e9afb93f4a28236410b0d7376ca.png" alt="#" class="mac_img">
             </div>
 
-            <div class="public_test_container">
+            <div class="public_test_container" data-aos="fade-up" data-aos-delay="200">
                 <h2>Feeling Experimental?</h2>
                 <p>Try our Public Test Build and test new features before they launch.</p>
 
@@ -211,5 +212,9 @@
             <!-- <hr class="hor_line"> -->
         </div>
         <script src="js/downloadScript.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
   </body>
 </html>
