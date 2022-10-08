@@ -12,6 +12,12 @@ body {
   height: 100%;
   width: 100%;
 }
+.header
+{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
 
 /* Header Section */
 .navbox {
@@ -87,6 +93,7 @@ nav {
 
 nav ul {
   display: flex;
+  justify-items: right;
 }
 
 nav ul li {
