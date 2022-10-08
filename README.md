@@ -31,3 +31,9 @@ Contributions are always welcome!
 See `CONTRIBUTE.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
+
+## Contributors
+
+<a href = "https://github.com/Zack-Dx/Discord-Clone/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Zack-Dx/Discord-Clone"/>
+</a>
