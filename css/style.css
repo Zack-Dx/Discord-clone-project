@@ -531,6 +531,7 @@ p{
   position: absolute;
 }
 
+
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -561,6 +562,17 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 10%;
+}
+.elements-nav{
+    margin-right:20px;
+    color: #fff;
+    
+}
+.elements-nav:hover{
+  font-weight: 600;
+  transition: ease-in-out;
+  text-shadow: 0 0 5px #6b6b7d;
+  text-decoration: underline;
 }
 
 .wrapper {

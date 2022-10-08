@@ -336,7 +336,6 @@
     text-align: left;
   }
   }
-=======
   /* MAIN SECTION STARTS */
   .container2,
   .container4 {
@@ -625,7 +624,7 @@
   }
 
   /* LAST SECTION ENDS */
-}
+
 
 @media screen and (max-width: 991px) {
   /* TOP BAR STARTS */
@@ -1375,7 +1374,7 @@
   .menu {
     display: non;
     flex-direction: column;
-    height: 100vh;
+    height: 130vh;
     width: 300px;
     max-width: 100vw;
     position: fixed;
@@ -1388,6 +1387,20 @@
     transition: all 0.5s;
     z-index: 11;
   }
+
+  .menu-hov{
+    justify-content: space-between;
+    color: black;
+  }
+ 
+  .menu-hov:hover{
+    background-color: #5865f2 ;
+    border-radius: 10px;
+    padding-left: 2px;
+    color: white;
+    
+  }
+
 
   .menu.show{
     transform:translateX(0%);
