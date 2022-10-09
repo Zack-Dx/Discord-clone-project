@@ -53,7 +53,7 @@ p{
   cursor: pointer;
 }
 
-.moon {
+.sun {
   background-color: transparent;
   box-shadow: -6px 1px 0 3px #f4fcfc;
   border-left: 3px solid #3a4042;
@@ -65,7 +65,7 @@ p{
   transition: 2s;
 }
 
-.sun {
+.moon {
   background-color: #fdd462;
   box-shadow: 2px 0px 0px 1px #D19C29;
   border-radius: 50%;
