@@ -133,7 +133,7 @@ margin-top: 20px;
 .cards
 {
   display: flex;
-  margin-left: 150px;
+  justify-content: center;
 }
 .second
 {
