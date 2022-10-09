@@ -47,6 +47,7 @@ function switchMode() {
     document.body.style.backgroundColor = "#141D26";
     document.body.style.color = "#fff";
     hangOut.style.backgroundColor = "#141D26";
+
   } else {
     moon.className = "moon";
     document.body.style.backgroundColor = "#fff";
