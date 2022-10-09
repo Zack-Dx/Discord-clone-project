@@ -71,28 +71,28 @@ close.addEventListener('click',function(e){
   hidden.style.display = 'none';
 });
 
-function download(x) {
-  if(x === "Windows"){
-    window.open("https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86");
-  }
-  else if(x === "Linux"){
-    // Tar.gz file is also available, but for that the UI should be updated too asking the uer if they want deb or tar.gz file.
-    window.open("https://discord.com/api/download?platform=linux&format=deb");
-  }
-  else if(x === "Mac"){
-    window.open("https://discord.com/api/download?platform=osx");
-  }
-  else if(x === "Android"){
-    window.open("https://play.google.com/store/apps/details?id=com.discord&fingerprint=1027469448279502868.2VFuFt_ihJGrFuSoSXuvQSQyBwc&attemptId=be670576-d546-4f16-9fe4-e99ede451454")
-  }
+// function download(x) {
+//   if(x === "Windows"){
+//     window.open("https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86");
+//   }
+//   else if(x === "Linux"){
+//     // Tar.gz file is also available, but for that the UI should be updated too asking the uer if they want deb or tar.gz file.
+//     window.open("https://discord.com/api/download?platform=linux&format=deb");
+//   }
+//   else if(x === "Mac"){
+//     window.open("https://discord.com/api/download?platform=osx");
+//   }
+//   else if(x === "Android"){
+//     window.open("https://play.google.com/store/apps/details?id=com.discord&fingerprint=1027469448279502868.2VFuFt_ihJGrFuSoSXuvQSQyBwc&attemptId=be670576-d546-4f16-9fe4-e99ede451454")
+//   }
   
-}
+// }
 
-function setDevice() {
-  console.log(Name);
-  document.querySelectorAll("deviceName").forEach((deviceName) => {
-    deviceName.innerHTML = Name;
-  });
-}
+// function setDevice() {
+//   console.log(Name);
+//   document.querySelectorAll("deviceName").forEach((deviceName) => {
+//     deviceName.innerHTML = Name;
+//   });
+// }
 
-setDevice();
+// setDevice();
