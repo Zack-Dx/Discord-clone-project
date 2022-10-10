@@ -581,16 +581,17 @@ nav ul li a:hover {
 
 .hidden{
   all:unset;
-  background-color: #3b4aee;
+  background-color: #5865f2;
   color:white;
   padding:10px;
   width:100%;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 20px;
   display:none;
   align-items: center;
   justify-content: center;
-  margin-top: 160px;
+  margin-top: 370px;
+  font-size: 14px;
 }
 .hidden:hover{
   -webkit-transform: scale(1.05);

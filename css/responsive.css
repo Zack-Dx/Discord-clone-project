@@ -123,8 +123,7 @@
       flex-wrap: wrap;
       justify-content: center;
       text-align: center;
-      gap: 1rem;
-      padding: 1rem 0;
+    
     }
   
     nav ul li a {
@@ -286,6 +285,14 @@
       justify-content: space-between;
       align-items: center;
     }
+    
+    .spacer{
+      width: 100%;
+      height: 1px;
+      background: #ebedef;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
   
     .mobile-menu-logo{
       width:100px;
@@ -293,12 +300,11 @@
     }
   
     .for-mobile svg.close{
-      width:30px;
+      width:24px;
     }
   
     nav ul{
       flex-direction: column;
-      margin-top: 30px;
     }
   
     ul li {
@@ -910,8 +916,6 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    gap: 1rem;
-    padding: 1rem 0;
   }
 
   nav ul li a {
@@ -1375,16 +1379,17 @@
     display: non;
     flex-direction: column;
     height: 130vh;
-    width: 300px;
+    width: 330px;
     max-width: 100vw;
     position: fixed;
     right: 0;
     top: 0;
     background-color: white;
-    padding: 30px;
+    padding: 24px;
     border-radius: 10px 0 0 10px;
     transform: translateX(100%);
     transition: all 0.5s;
+
     z-index: 11;
   }
 
@@ -1398,7 +1403,6 @@
     border-radius: 10px;
     padding-left: 2px;
     color: white;
-    
   }
 
 
@@ -1422,7 +1426,6 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    
   }
 
   .mobile-menu-logo{
@@ -1436,11 +1439,13 @@
 
   nav ul {
     flex-direction: column;
-    margin-top: 30px;
   }
 
-  ul li {
-    padding: 5px 0;
+  .menu ul li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
   }
 
   .wrapper .hamburger {
