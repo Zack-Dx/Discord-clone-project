@@ -43,10 +43,10 @@ p{
 
 
 .night-toggle {
-  width: 33px;
+  width: 40px;
   right: 25px;
   position: sticky;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 .night-toggle:hover {
@@ -546,31 +546,16 @@ nav ul, .wrapper {
 
 nav ul li {
   list-style: none;
-}
-
-nav ul li a {
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-family: "Whitney Medium";
+  width: 100%;
   font-weight: 600;
-  padding: 10px;
-  margin: 10px;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 10%;
-}
 .elements-nav{
     margin-right:20px;
     color: #fff;
-    
 }
 .elements-nav:hover{
-  font-weight: 600;
-  transition: ease-in-out;
+  transition: ease-in-out 0.2s;
   text-shadow: 0 0 5px #6b6b7d;
   text-decoration: underline;
 }
@@ -1090,7 +1075,7 @@ footer .footer-nav h5 {
 
 .wrapper .hamburger{
   width:40px;
-display:none
+  display:none;
 }
 p {
   line-height: 2rem;
