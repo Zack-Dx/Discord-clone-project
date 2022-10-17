@@ -444,6 +444,7 @@ footer .footer-nav {
 
 footer .footer-nav .socials h4 {
   margin-bottom: 5px;
+ 
   font-size: 32px;
   color: #5865f2;
   font-weight: 800 !important;
@@ -457,6 +458,7 @@ footer .footer-nav .socials img {
   /* height: 16px; */
   padding-right: 1rem;
   padding-top: 1rem;
+ 
 }
 
 footer .footer-nav .column a {
@@ -518,7 +520,9 @@ footer .footer-nav h5 {
 .links, .links i {
   font-size: larger;
   padding: 5px;
-  margin: 5px 0px;
+  margin: 5px;
+  position: relative;
+  left: -4%;
 }
 
 .links a:hover{
@@ -544,3 +548,16 @@ footer .footer-nav h5 {
 #btnScrollToTop:active {
   background: rgb(114, 93, 183);
 }
+.c3, .c4{
+  position: relative;
+  top: 15%;
+}
+.c2{
+  position: relative;
+  top: -4%;
+}
+.c1{
+  position: relative;
+  top: -10%;
+}
+
