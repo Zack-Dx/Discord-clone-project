@@ -7,7 +7,7 @@
 </div>
 
 
-## Introduction
+# Introduction
 This project was developed with the following technologies:
 
 - [Html](https://www.w3schools.com/html)
