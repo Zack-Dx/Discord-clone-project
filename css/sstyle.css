@@ -7,9 +7,10 @@ body{
   .header
   {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     overflow: hidden;
+    padding: 0 9rem;
   }
  nav ul {
     display: flex;
@@ -54,7 +55,6 @@ body{
 .clouds
 {
     display: flex;
-    margin: 10px;
     background-image: url("../img/background.png");
     height: 300px;
     background-position: center;
@@ -72,8 +72,8 @@ body{
 }
 .heading
 {
-position: absolute;
-    top: 40%;
+  position: absolute;
+  top: 30%;
   left: 50%;
   font-size: 35px;
   font-weight:bold;
@@ -81,18 +81,20 @@ position: absolute;
   color: white;
   text-align:center;
 }
+.main_head{
+  font-size: 3rem;
+}
 #search
 {
-  width: 650px;
+  width: 600px;
   height: 40px;
   background-color: rgb(250, 245, 245);
   border: 1px black;
-  border-radius: 30px;
+  border-radius: 5px;
   position: relative;
   right: 1%;
   padding-left: 44px ;
   padding-top: -2px;
- 
 }
 .search-iconb {
   position: relative;
@@ -118,13 +120,31 @@ position: absolute;
   width: 100%;
   margin-left: 20px;
   margin-top: 80px;
-  color: #64676e;
+  color: black;
+}
+.intro
+{
+  text-align: center;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 80px;
+  color: #2E3338;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.para{
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 2rem;
 }
 
 h1{
 margin-top: 20px;
-    font-size: 26px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
     line-height: 100%;
     margin-bottom: 10;
   
@@ -134,11 +154,16 @@ margin-top: 20px;
 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 }
 .second
 {
   display: flex;
-  margin-left: 400px;
+  /* margin-left: 400px; */
+  justify-content: center;
 }
 
 .a{
@@ -146,18 +171,23 @@ margin-top: 20px;
     width: 230px;
     background-color:white;
     margin: 10px;
-    box-shadow: 1px 1px 10px 0 rgb(198, 189, 189);
+    /* box-shadow: 1px 1px 10px 0 ; */
+    border: 1px solid rgb(214, 207, 207);
     text-transform: capitalize;
     color: #64676e;
     text-align: center;
+    border-radius: 4px;
+}
+.a:hover{
+  background-color: rgba(250, 247, 247, 0.668);
 }
 .b 
 {
   height: 250px;
   width: 230px;
-  background-color:#f2f2f2;
+  background-color:white;
   margin: 10px;
-  box-shadow: 1px 1px 10px 0 rgb(198, 189, 189);
+  border: 1px solid rgb(214, 207, 207);
   text-transform: capitalize;
   color: #64676e;
   text-align: center; 
@@ -174,15 +204,16 @@ hr{
 }
 h2{
   color: rgb(84, 84, 248);
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 130px;
-  font-weight: 400;
+  font-weight: 600;
 }
 h3{
-  font-size: 14px;
-    font-weight: 400;
+  font-size: 13px;
+    font-weight: 500;
     width: 200px;
     margin: -10px auto 0;
+    text-align: center;
     color: #68727e;
     font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
 }
@@ -239,14 +270,15 @@ h3{
 .a :hover
 {
   position: relative;
-  top: -5px;
-  border-color: $color_1;
+  /* top: -5px; */
+  border-color: #23272A;
 }
 .second :hover
 {
   position: relative;
-  top: -5px;
-  border-color: $color_1;
+  /* top: -5px; */
+  /* border-color: #23272A; */
+  background-color: rgba(250, 247, 247, 0.668);
 }
 #trust
 {
@@ -279,7 +311,7 @@ h3{
 
 }
 #end {
-  background-color: #23272A;
+  background-color: #0E0E0E;
   background-size: 235px 185px;
   overflow: hidden;
   margin: 0;
@@ -316,11 +348,12 @@ h3{
   height: 42px;
   border: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 */
 #end .hook .button:hover {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgb(0, 0, 0);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .apps {
@@ -363,7 +396,6 @@ h3{
 {
   border-top: 1px solid rgba(219,221,225,.1);
   align-items: center;
-  display: box;
   display: flex;
   padding: 0 30px 50px;
   margin-bottom: 50px;
@@ -416,7 +448,10 @@ h3{
 .links-item a
 {
   text-decoration: none;
-  color: #616772;
+  color: #ffffff;
+}
+.link-sep{
+  color: white;
 }
   .links-item a:hover {
     color: white;
